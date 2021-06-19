@@ -1,0 +1,41 @@
+#slide-out.side-nav.fixed.bg-white.d-md-none(data-scroll-container="#scroll-container" data-mode="side")
+    ul.custom-scrollbar#scroll-container
+        li.border-bottom.d-flex.container.py-2
+            .pl-0.pl-3.py-1
+                .d-flex
+                    a(href="") ESP
+                    span.mx-1.mt-3.text-dark /
+                    a(href="").pl-1 ENG
+            a(href="" )#closed.button-collapse.ml-auto.p-3.pt-0
+                span.fal.fa-times.text-dark.font-30
+
+        li
+            ul.collapsible.collapsible-accordion.col-10.mx-auto.mt-3
+                li
+                    a.brand-link.pl-0(href="")
+                        img.brand-image.img-circle.elevation-3.avatar.px-0(src="https://ui-avatars.com/api/?name=EG&rounded=true&background=50C2F7&color=ffffff" alt='Flambeau Logo' style='opacity: .8')
+                        span.brand-text.text-dark.ml-2 Esteban Gorostarzu
+                    a.pl-0.text-dark.align-items-center
+                        i.fal.fa-sign-out.text-dark.font-20.ml-5.mr-2
+                        |Cerrar sesion
+                hr
+                li.pt-3
+                    a(href="").collapsible-header.waves-effect.text-muted.font-17
+                        |Oportunidades
+                li
+                    a(href="").collapsible-header.waves-effect.text-muted.font-17
+                        |Proceso Flambeau
+                li
+                    a(href="").collapsible-header.waves-effect.text-muted.font-17
+                        |Contacto directo
+                li.d-inline-block.d-xl-none
+                hr
+                li.d-inline-block.d-xl-none
+                    button.btn.btn-circle.mr-4.btn-outline-grey(onclick="window.open('https://www.linkedin.com/company/flambeaucapital')")
+                        i.icon-linkedin
+                    button.btn.btn-outline-grey.btn-circle(onclick="window.open('https://twitter.com/flambeaucapital')")
+                        i.icon-twitter
+                li.d-inline-block.d-xl-none.mt-5
+                    a.link-a(href="") Politicas de privacidad
+                    a.link-a.mt-2(href="") Cookie
+    .sidenav-bg.mask-strong
