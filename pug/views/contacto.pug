@@ -1,24 +1,25 @@
 extends ../layouts/_layaout_uno
 block content
-    .col-md-10.mx-auto
-        // Section: Analytical panel
-        section.mb-5.pb-5.pt-md-5.mt-md-5.pt-5
-            .pt-5.mt-md-0.mt-4
-                .row
-                    .col-md-4
-                        div.pb-1.pt-3
-                            p.mb-0.text-muted MEMBERS
-                            h1.text-primary.font-weight-500 Contacto directo
-                            p.font-14.mt-md-4    En este breve video te explicamos un ejemplo completo de como
-                                | son los pasos que se llevan a cabo desde que una empresa se postula,
-                                | es analizada y seleccionada hasta su exit.
-                    .col-md-8
-                        form.card.border-radius-card.border-0.p-4.col-md-8.mx-auto
-                            .md-form.form-sm
-                                input#f3.form-control.form-control-sm(type='text')
-                                label(for='f3') Asunto
-                            .md-form
-                                textarea#form101.md-textarea.form-control(type='text' rows='3')
-                                label(for='form101') Mensaje
-                            div
-                                button.btn.btn-primary.btn-sm.btn-rounded.col-md-4.col-12 Enviar
+    .container
+        .col-md-10.mx-auto
+            // Section: Analytical panel
+            section.mb-5.pb-5.pt-md-5.mt-md-5.pt-5
+                .pt-5.mt-md-0.mt-4
+                    .row
+                        .col-md-4
+                            div.pb-1.pt-3
+                                p.mb-0.text-muted MEMBERS
+                                h1.text-primary.font-weight-500 Contacto directo
+                                p.font-14.mt-md-4    En este breve video te explicamos un ejemplo completo de como
+                                    | son los pasos que se llevan a cabo desde que una empresa se postula,
+                                    | es analizada y seleccionada hasta su exit.
+                        .col-md-8
+                            form.card.border-radius-card.border-0.p-4.col-md-8.mx-auto
+                                .md-form.form-sm
+                                    input#f3.form-control.form-control-sm(type='text')
+                                    label(for='f3') Asunto
+                                .md-form
+                                    textarea#form101.md-textarea.form-control(type='text' rows='3')
+                                    label(for='form101') Mensaje
+                                div
+                                    button.btn.btn-primary.btn-sm.btn-rounded.col-md-4.col-12 Enviar

@@ -25,9 +25,9 @@
             <ul class="collapsible collapsible-accordion col-10 mx-auto mt-3">
               <li><a class="brand-link pl-0" href=""><img class="brand-image img-circle elevation-3 avatar px-0" src="https://ui-avatars.com/api/?name=EG&amp;rounded=true&amp;background=50C2F7&amp;color=ffffff" alt="Flambeau Logo" style="opacity: .8"/><span class="brand-text text-dark ml-2">Esteban Gorostarzu</span></a><a class="pl-0 text-dark align-items-center"><i class="fal fa-sign-out text-dark font-20 ml-5 mr-2"></i>Cerrar sesion</a></li>
               <hr/>
-              <li class="pt-3"><a class="collapsible-header waves-effect text-muted font-17" href="">Oportunidades</a></li>
-              <li><a class="collapsible-header waves-effect text-muted font-17" href="">Proceso Flambeau</a></li>
-              <li><a class="collapsible-header waves-effect text-muted font-17" href="">Contacto directo</a></li>
+              <li class="pt-3"><a class="collapsible-header waves-effect text-muted font-17" href="oportunidades.html">Oportunidades</a></li>
+              <li><a class="collapsible-header waves-effect text-muted font-17" href="proceso.html">Proceso Flambeau</a></li>
+              <li><a class="collapsible-header waves-effect text-muted font-17" href="contacto.html">Contacto directo</a></li>
               <li class="d-inline-block d-xl-none"></li>
               <hr/>
               <li class="d-inline-block d-xl-none">
@@ -40,7 +40,10 @@
         </ul>
         <div class="sidenav-bg mask-strong"></div>
       </div>
-      <nav class="navbar fixed-top navbar-expand-lg scrolling-navbar double-nav bg-white py-2 px-md-5">
+      <div class="bg-blue-fo d-none d-xl-block" data-aos="fade">
+        <div class="justify-content-right text-right mr-5"><a class="text-primary" href="">ESP</a><span class="mx-2 text-white">/</span><a class="text-white" href="">ENG</a></div>
+      </div>
+      <nav class="navbar fixed-top navbar-expand-lg scrolling-navbar double-nav bg-white py-2 px-md-5 mt-nav-md">
         <div class="container">
           <!-- Breadcrumb--><a class="breadcrumb-dn mr-auto" href=""><img class="col-md-8" src="img/logo-gray.png"/></a>
           <div class="d-flex change-mode col-9 px-0 flex-row">
@@ -48,9 +51,9 @@
             -->
             <!-- Navbar links-->
             <ul class="nav navbar-nav nav-flex-icons ml-auto d-md-flex d-none">
-              <li class="nav-item active"><a class="nav-link waves-effect"><span class="clearfix d-none d-sm-inline-block">Oportunidades</span></a></li>
-              <li class="nav-item"><a class="nav-link waves-effect"><span class="clearfix d-none d-sm-inline-block">Proceso Flambeau</span></a></li>
-              <li class="nav-item"><a class="nav-link waves-effect"><span class="clearfix d-none d-sm-inline-block">Contacto</span></a></li>
+              <li class="nav-item active"><a class="nav-link text-dark" href="oportunidades.html"><span class="clearfix d-none d-sm-inline-block">Oportunidades</span></a></li>
+              <li class="nav-item"><a class="nav-link text-dark" href="proceso.html"><span class="clearfix d-none d-sm-inline-block">Proceso Flambeau</span></a></li>
+              <li class="nav-item"><a class="nav-link text-dark" href="contacto.html"><span class="clearfix d-none d-sm-inline-block">Contacto</span></a></li>
               <li class="nav-item mx-4 raya-vertical"></li>
               <li class="nav-item d-flex">
                 <div class="text-dark text-right" style="display:grid"><span class="brand-text text-dark">Esteban Gorostarzu</span><a class="text-dark closed-session-link" href=""><small>Cerrar sesion</small></a></div>
@@ -68,7 +71,7 @@
     </header>
     <!-- Main layout-->
     <main>
-      <div class="container-md">
+      <div class="container">
         <div class="col-md-10 mx-auto">
           <!-- Section: Analytical panel-->
           <section class="mt-md-5 pt-md-5 mb-5">
@@ -78,7 +81,7 @@
             </div>
             <div class="row mt-3 px-3">
               <div class="row my-md-3 mb-3">
-                <div class="card border-radius-card border-0 col-md px-0">
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades">
                   <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
@@ -101,7 +104,7 @@
                     <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
                   </div>
                 </div>
-                <div class="card border-radius-card border-0 col-md px-0 mx-md-3 my-3 my-md-0">
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades mx-md-3 my-3 my-md-0">
                   <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
@@ -124,7 +127,7 @@
                     <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
                   </div>
                 </div>
-                <div class="card border-radius-card border-0 col-md px-0">
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades mr-3">
                   <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
@@ -147,55 +150,7 @@
                     <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
                   </div>
                 </div>
-              </div>
-              <div class="row my-md-3 mb-3">
-                <div class="card border-radius-card border-0 col-md px-0">
-                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
-                      <div class="mask rgba-white-slight"></div></a></div>
-                  <div class="card-body">
-                    <!--
-                    a.activator.mr-3
-                        i.fas.fa-share-alt
-                    -->
-                    <p class="card-title">Nombre empresa</p>
-                    <div class="d-flex">
-                      <div><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-tag mr-2"></i><span>Tecnology</span></a></div>
-                      <div class="ml-3"><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-map-marker-alt mr-2"></i><span>Argentina</span></a></div>
-                    </div>
-                    <hr class="mt-1"/>
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi ante,
-                      suscipit vel ornare id, aliquet et quam. Donec in facilisis augue.
-                      Quisque sollicitudin
-                    </p>
-                    <hr/>
-                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
-                  </div>
-                </div>
-                <div class="card border-radius-card border-0 col-md px-0 mx-md-3 my-3 my-md-0">
-                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
-                      <div class="mask rgba-white-slight"></div></a></div>
-                  <div class="card-body">
-                    <!--
-                    a.activator.mr-3
-                        i.fas.fa-share-alt
-                    -->
-                    <p class="card-title">Nombre empresa</p>
-                    <div class="d-flex">
-                      <div><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-tag mr-2"></i><span>Tecnology</span></a></div>
-                      <div class="ml-3"><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-map-marker-alt mr-2"></i><span>Argentina</span></a></div>
-                    </div>
-                    <hr class="mt-1"/>
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi ante,
-                      suscipit vel ornare id, aliquet et quam. Donec in facilisis augue.
-                      Quisque sollicitudin
-                    </p>
-                    <hr/>
-                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
-                  </div>
-                </div>
-                <div class="card border-radius-card border-0 col-md px-0">
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades">
                   <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
@@ -220,7 +175,7 @@
                 </div>
               </div>
               <div class="row my-md-3 mb-3">
-                <div class="card border-radius-card border-0 col-md px-0">
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades">
                   <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
@@ -243,7 +198,7 @@
                     <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
                   </div>
                 </div>
-                <div class="card border-radius-card border-0 col-md px-0 mx-md-3 my-3 my-md-0">
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades mx-md-3 my-3 my-md-0">
                   <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
@@ -266,7 +221,124 @@
                     <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
                   </div>
                 </div>
-                <div class="card border-radius-card border-0 col-md px-0">
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades mr-3">
+                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
+                      <div class="mask rgba-white-slight"></div></a></div>
+                  <div class="card-body">
+                    <!--
+                    a.activator.mr-3
+                        i.fas.fa-share-alt
+                    -->
+                    <p class="card-title">Nombre empresa</p>
+                    <div class="d-flex">
+                      <div><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-tag mr-2"></i><span>Tecnology</span></a></div>
+                      <div class="ml-3"><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-map-marker-alt mr-2"></i><span>Argentina</span></a></div>
+                    </div>
+                    <hr class="mt-1"/>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi ante,
+                      suscipit vel ornare id, aliquet et quam. Donec in facilisis augue.
+                      Quisque sollicitudin
+                    </p>
+                    <hr/>
+                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
+                  </div>
+                </div>
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades">
+                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
+                      <div class="mask rgba-white-slight"></div></a></div>
+                  <div class="card-body">
+                    <!--
+                    a.activator.mr-3
+                        i.fas.fa-share-alt
+                    -->
+                    <p class="card-title">Nombre empresa</p>
+                    <div class="d-flex">
+                      <div><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-tag mr-2"></i><span>Tecnology</span></a></div>
+                      <div class="ml-3"><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-map-marker-alt mr-2"></i><span>Argentina</span></a></div>
+                    </div>
+                    <hr class="mt-1"/>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi ante,
+                      suscipit vel ornare id, aliquet et quam. Donec in facilisis augue.
+                      Quisque sollicitudin
+                    </p>
+                    <hr/>
+                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row my-md-3 mb-3">
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades">
+                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
+                      <div class="mask rgba-white-slight"></div></a></div>
+                  <div class="card-body">
+                    <!--
+                    a.activator.mr-3
+                        i.fas.fa-share-alt
+                    -->
+                    <p class="card-title">Nombre empresa</p>
+                    <div class="d-flex">
+                      <div><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-tag mr-2"></i><span>Tecnology</span></a></div>
+                      <div class="ml-3"><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-map-marker-alt mr-2"></i><span>Argentina</span></a></div>
+                    </div>
+                    <hr class="mt-1"/>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi ante,
+                      suscipit vel ornare id, aliquet et quam. Donec in facilisis augue.
+                      Quisque sollicitudin
+                    </p>
+                    <hr/>
+                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
+                  </div>
+                </div>
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades mx-md-3 my-3 my-md-0">
+                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
+                      <div class="mask rgba-white-slight"></div></a></div>
+                  <div class="card-body">
+                    <!--
+                    a.activator.mr-3
+                        i.fas.fa-share-alt
+                    -->
+                    <p class="card-title">Nombre empresa</p>
+                    <div class="d-flex">
+                      <div><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-tag mr-2"></i><span>Tecnology</span></a></div>
+                      <div class="ml-3"><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-map-marker-alt mr-2"></i><span>Argentina</span></a></div>
+                    </div>
+                    <hr class="mt-1"/>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi ante,
+                      suscipit vel ornare id, aliquet et quam. Donec in facilisis augue.
+                      Quisque sollicitudin
+                    </p>
+                    <hr/>
+                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
+                  </div>
+                </div>
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades mr-3">
+                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
+                      <div class="mask rgba-white-slight"></div></a></div>
+                  <div class="card-body">
+                    <!--
+                    a.activator.mr-3
+                        i.fas.fa-share-alt
+                    -->
+                    <p class="card-title">Nombre empresa</p>
+                    <div class="d-flex">
+                      <div><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-tag mr-2"></i><span>Tecnology</span></a></div>
+                      <div class="ml-3"><a class="font-12 d-flex align-items-center text-primary"><i class="fas fa-map-marker-alt mr-2"></i><span>Argentina</span></a></div>
+                    </div>
+                    <hr class="mt-1"/>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi ante,
+                      suscipit vel ornare id, aliquet et quam. Donec in facilisis augue.
+                      Quisque sollicitudin
+                    </p>
+                    <hr/>
+                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3 mx-auto" data-toggle="modal" data-target="#modalLRFormDemo">   VER OPORTUNIDAD</a>
+                  </div>
+                </div>
+                <div class="card border-radius-card border-0 col-md px-0 card-hover-oportunidades">
                   <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
@@ -306,7 +378,7 @@
                     <p class="font-12"> A través de esta plataforma tendrás acceso a nuestra vidriera de oportunidades seleccionadas por nuestro equipo y advisors especialistas.</p>
                     <div class="mt-4" style="justify-content: center;display: grid;"><a class="btn btn-primary btn-rounded mx-auto btn-md col-12 d-block">EMPEZAR</a>
                       <fieldset class="form-check mt-4">
-                        <input class="form-check-input filled-in" id="checkbox2" type="checkbox" checked="checked"/>
+                        <input class="form-check-input filled-in" id="checkbox2" type="checkbox"/>
                         <label class="form-check-label" for="checkbox2">Aceptar terminos y condiciones.</label>
                       </fieldset>
                     </div>

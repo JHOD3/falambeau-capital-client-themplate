@@ -31,7 +31,11 @@
 
 // Basic font properties
 $roboto-font-path:                            "../font/roboto/" !default;
+$martel-font-path:                            "../font/martel/" !default;
+$ibm-plex-sans-font-path:                     "../font/ibm_plex_sans/" !default;
 $roboto-font-family:                          "Roboto", sans-serif !default;
+$martel-font-family:                          "Martel", serif !default;
+$ibm-plex-sans-font-family:                   "IBM Plex Sans", sans-serif !default;
 $mdb-font-family:                             $roboto-font-family !default;
 
 $font-size-large:                             1.5rem !default;

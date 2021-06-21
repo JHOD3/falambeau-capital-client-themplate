@@ -8222,6 +8222,7 @@ table.table a.btn.btn-black {
   .navbar.scrolling-navbar.top-nav-collapse {
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 0px !important;
   }
 }
 
@@ -23324,6 +23325,12 @@ img.rounded-circle {
   border-color: #fff;
 }
 
+.card-hover-oportunidades:hover {
+  z-index: 99999;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
 @media (max-width: 768px) {
   .avatar {
     width: 35px;
@@ -23332,5 +23339,14 @@ img.rounded-circle {
 @media (min-width: 768px) {
   .site-footer {
     padding: 4em 0;
+  }
+
+  .mt-nav-md {
+    margin-top: 22px;
+  }
+
+  .video-w {
+    width: 100%;
+    height: 332px !important;
   }
 }
