@@ -23375,14 +23375,16 @@ img.rounded-circle {
     margin-top: 13px;
   }
 
+  .card-hover-oportunidades {
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+  }
+
   .card-hover-oportunidades:hover {
     -webkit-transform: scale(1.08);
             transform: scale(1.08);
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
-    -moz-animation: fadeIn 2s;
-    -o-animation: fadeIn 2s;
-    -ms-animation: fadeIn 2s;
   }
 
   @-webkit-keyframes fadeIn {

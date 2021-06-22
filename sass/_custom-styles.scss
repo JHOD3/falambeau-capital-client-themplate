@@ -183,13 +183,11 @@
     position: absolute;
     margin-top: 13px;
   }
+  .card-hover-oportunidades{
+    transition: transform .2s;
+  }
   .card-hover-oportunidades:hover {
     transform: scale(1.08);
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
-    -moz-animation: fadeIn 2s;
-    -o-animation: fadeIn 2s;
-    -ms-animation: fadeIn 2s;
   }
   @keyframes fadeIn {
     0% {transform: scale(1);}
