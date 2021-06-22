@@ -25,6 +25,8 @@
  * Attribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js
  *
  */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap");
 .mdb-color.lighten-5 {
   background-color: #d0d6e2 !important;
 }
@@ -2012,7 +2014,7 @@ button.bg-light:focus {
   src: url("../font/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype");
 }
 body {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
@@ -23163,6 +23165,19 @@ img.rounded-circle {
   font-size: 60px !important;
 }
 
+.body {
+  font-family: "IBM Plex Sans", sans-serif !important;
+  color: #707070 !important;
+}
+
+.font-martel {
+  font-family: "Martel", serif !important;
+}
+
+.font-IBM {
+  font-family: "IBM Plex Sans", sans-serif !important;
+}
+
 .avatar {
   width: 35px;
 }
@@ -23224,10 +23239,6 @@ img.rounded-circle {
   border-radius: 0 0 15px 15px !important;
 }
 
-.owl-carousel .active:after {
-  border: 1px solid #2f424b00 !important;
-}
-
 .owl-carousel-2 .owl-stage-outer .owl-stage {
   -webkit-transform: translate3d(-1258px, 0px, 0px);
           transform: translate3d(-1258px, 0px, 0px);
@@ -23241,14 +23252,6 @@ img.rounded-circle {
 
 .owl-carousel-2 img {
   width: 127px !important;
-}
-
-.active:after {
-  content: "";
-  width: 100%;
-  border: 1px solid #52c3f8;
-  position: absolute;
-  margin-top: 13px;
 }
 
 .container-portada {
@@ -23325,18 +23328,24 @@ img.rounded-circle {
   border-color: #fff;
 }
 
-.card-hover-oportunidades:hover {
-  z-index: 99999;
-  -webkit-transform: scale(1.08);
-          transform: scale(1.08);
+.owl-carousel .active:after {
+  border: 1px solid #2f424b00 !important;
 }
 
-@media (max-width: 768px) {
-  .avatar {
-    width: 35px;
-  }
+.font-welcom-modal {
+  font-size: 70px;
 }
+
+.rotate-plus {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
 @media (min-width: 768px) {
+  .font-welcom-modal {
+    font-size: 70px;
+  }
+
   .site-footer {
     padding: 4em 0;
   }
@@ -23348,5 +23357,72 @@ img.rounded-circle {
   .video-w {
     width: 100%;
     height: 332px !important;
+  }
+
+  .active:after {
+    content: "";
+    width: 100%;
+    border: 1px solid #52c3f8;
+    position: absolute;
+    margin-top: 13px;
+  }
+
+  .nav-item:hover:after {
+    content: "";
+    width: 100%;
+    border: 1px solid #52c3f8;
+    position: absolute;
+    margin-top: 13px;
+  }
+
+  .card-hover-oportunidades:hover {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.08);
+              transform: scale(1.08);
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.08);
+              transform: scale(1.08);
+    }
+  }
+}
+@media (max-width: 768px) {
+  .font-welcom-modal {
+    font-size: 55px;
+  }
+
+  .avatar {
+    width: 35px;
+  }
+
+  .video-w {
+    height: 200px !important;
+    width: 100%;
+  }
+
+  .photo-perfil {
+    width: 120px;
+    height: auto;
   }
 }

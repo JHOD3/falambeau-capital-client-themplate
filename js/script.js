@@ -76,14 +76,22 @@ owl.on('changed.owl.carousel', function(event) {
     suma = (suma==0)?event.item.count:suma;
     $('.nav-carousel').html(suma+' de '+event.item.count);
 });
-
+var clicks = 0;
 $('.deploy').on('click', function (event) {
     let id = $(this).data('id');
-
+    if (clicks == 0){
+        $(this).find('i').addClass('rotate-plus');
+        ++clicks;
+    } else{
+        $(this).find('i').removeClass('rotate-plus');
+        clicks = 0;
+    }
     $(id).toggle();
 });
 
 $('.card-photo-carousel').on('mouseleave',function (event) {
     let id = $(this).data('id');
+    $(this).find('i').removeClass('rotate-plus');
     $(id).css('display','none');
+    clicks = 0;
 })
