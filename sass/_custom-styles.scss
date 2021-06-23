@@ -48,6 +48,7 @@
   width: 229px;
   background: white;
 }
+
 .z-index-1{
   z-index: -1;
 }
@@ -169,10 +170,17 @@
     height: 332px !important;
   }
 
-  .active:after {
+  .nav .active:after {
     content: "";
     width: 100%;
     border: 1px solid #52c3f8;
+    position: absolute;
+    margin-top: 13px;
+  }
+  .btn .active:after {
+    content: "";
+    width: 100%;
+    border: transparent !important;
     position: absolute;
     margin-top: 13px;
   }

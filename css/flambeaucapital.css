@@ -5581,8 +5581,8 @@ a.waves-effect, a.waves-light {
   background-color: #68cbf8;
 }
 .btn-primary:focus, .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-primary:focus, .btn-primary:active, .btn-primary.active {
   background-color: #0a96d7;
@@ -5595,12 +5595,12 @@ a.waves-effect, a.waves-light {
 }
 .btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   background-color: #0a96d7 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-primary:not([disabled]):not(.disabled):active:focus, .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .primary-ic {
@@ -5650,8 +5650,8 @@ table.table a.btn.btn-primary {
   background-color: #ff4f5e;
 }
 .btn-danger:focus, .btn-danger.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-danger:focus, .btn-danger:active, .btn-danger.active {
   background-color: #ce0012;
@@ -5664,12 +5664,12 @@ table.table a.btn.btn-primary {
 }
 .btn-danger:not([disabled]):not(.disabled):active, .btn-danger:not([disabled]):not(.disabled).active, .show > .btn-danger.dropdown-toggle {
   background-color: #ce0012 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-danger:not([disabled]):not(.disabled):active:focus, .btn-danger:not([disabled]):not(.disabled).active:focus, .show > .btn-danger.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .danger-ic {
@@ -5719,8 +5719,8 @@ table.table a.btn.btn-danger {
   background-color: #ffc44d;
 }
 .btn-warning:focus, .btn-warning.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-warning:focus, .btn-warning:active, .btn-warning.active {
   background-color: #cc8800;
@@ -5733,12 +5733,12 @@ table.table a.btn.btn-danger {
 }
 .btn-warning:not([disabled]):not(.disabled):active, .btn-warning:not([disabled]):not(.disabled).active, .show > .btn-warning.dropdown-toggle {
   background-color: #cc8800 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-warning:not([disabled]):not(.disabled):active:focus, .btn-warning:not([disabled]):not(.disabled).active:focus, .show > .btn-warning.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .warning-ic {
@@ -5788,8 +5788,8 @@ table.table a.btn.btn-warning {
   background-color: #00e25b;
 }
 .btn-success:focus, .btn-success.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-success:focus, .btn-success:active, .btn-success.active {
   background-color: #006228;
@@ -5802,12 +5802,12 @@ table.table a.btn.btn-warning {
 }
 .btn-success:not([disabled]):not(.disabled):active, .btn-success:not([disabled]):not(.disabled).active, .show > .btn-success.dropdown-toggle {
   background-color: #006228 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-success:not([disabled]):not(.disabled):active:focus, .btn-success:not([disabled]):not(.disabled).active:focus, .show > .btn-success.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .success-ic {
@@ -5857,8 +5857,8 @@ table.table a.btn.btn-success {
   background-color: #4abde8;
 }
 .btn-info:focus, .btn-info.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-info:focus, .btn-info:active, .btn-info.active {
   background-color: #14799e;
@@ -5871,12 +5871,12 @@ table.table a.btn.btn-success {
 }
 .btn-info:not([disabled]):not(.disabled):active, .btn-info:not([disabled]):not(.disabled).active, .show > .btn-info.dropdown-toggle {
   background-color: #14799e !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-info:not([disabled]):not(.disabled):active:focus, .btn-info:not([disabled]):not(.disabled).active:focus, .show > .btn-info.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .info-ic {
@@ -5926,8 +5926,8 @@ table.table a.btn.btn-info {
   background-color: #30cfc0;
 }
 .btn-default:focus, .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-default:focus, .btn-default:active, .btn-default.active {
   background-color: #186860;
@@ -5940,12 +5940,12 @@ table.table a.btn.btn-info {
 }
 .btn-default:not([disabled]):not(.disabled):active, .btn-default:not([disabled]):not(.disabled).active, .show > .btn-default.dropdown-toggle {
   background-color: #186860 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-default:not([disabled]):not(.disabled):active:focus, .btn-default:not([disabled]):not(.disabled).active:focus, .show > .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .default-ic {
@@ -5995,8 +5995,8 @@ table.table a.btn.btn-default {
   background-color: #0049b8;
 }
 .btn-secondary:focus, .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
   background-color: #001638;
@@ -6009,12 +6009,12 @@ table.table a.btn.btn-default {
 }
 .btn-secondary:not([disabled]):not(.disabled):active, .btn-secondary:not([disabled]):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
   background-color: #001638 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-secondary:not([disabled]):not(.disabled):active:focus, .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .secondary-ic {
@@ -6064,8 +6064,8 @@ table.table a.btn.btn-secondary {
   background-color: #3b3b3b;
 }
 .btn-elegant:focus, .btn-elegant.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-elegant:focus, .btn-elegant:active, .btn-elegant.active {
   background-color: black;
@@ -6078,12 +6078,12 @@ table.table a.btn.btn-secondary {
 }
 .btn-elegant:not([disabled]):not(.disabled):active, .btn-elegant:not([disabled]):not(.disabled).active, .show > .btn-elegant.dropdown-toggle {
   background-color: black !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-elegant:not([disabled]):not(.disabled):active:focus, .btn-elegant:not([disabled]):not(.disabled).active:focus, .show > .btn-elegant.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .elegant-ic {
@@ -6133,8 +6133,8 @@ table.table a.btn.btn-elegant {
   background-color: #9f105c;
 }
 .btn-unique:focus, .btn-unique.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-unique:focus, .btn-unique:active, .btn-unique.active {
   background-color: #2c0419;
@@ -6147,12 +6147,12 @@ table.table a.btn.btn-elegant {
 }
 .btn-unique:not([disabled]):not(.disabled):active, .btn-unique:not([disabled]):not(.disabled).active, .show > .btn-unique.dropdown-toggle {
   background-color: #2c0419 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-unique:not([disabled]):not(.disabled):active:focus, .btn-unique:not([disabled]):not(.disabled).active:focus, .show > .btn-unique.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .unique-ic {
@@ -6202,8 +6202,8 @@ table.table a.btn.btn-unique {
   background-color: #3fa044;
 }
 .btn-dark-green:focus, .btn-dark-green.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-dark-green:focus, .btn-dark-green:active, .btn-dark-green.active {
   background-color: #1b451d;
@@ -6216,12 +6216,12 @@ table.table a.btn.btn-unique {
 }
 .btn-dark-green:not([disabled]):not(.disabled):active, .btn-dark-green:not([disabled]):not(.disabled).active, .show > .btn-dark-green.dropdown-toggle {
   background-color: #1b451d !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-dark-green:not([disabled]):not(.disabled):active:focus, .btn-dark-green:not([disabled]):not(.disabled).active:focus, .show > .btn-dark-green.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .dark-green-ic {
@@ -6271,8 +6271,8 @@ table.table a.btn.btn-dark-green {
   background-color: #63759d;
 }
 .btn-mdb-color:focus, .btn-mdb-color.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-mdb-color:focus, .btn-mdb-color:active, .btn-mdb-color.active {
   background-color: #323a4e;
@@ -6285,12 +6285,12 @@ table.table a.btn.btn-dark-green {
 }
 .btn-mdb-color:not([disabled]):not(.disabled):active, .btn-mdb-color:not([disabled]):not(.disabled).active, .show > .btn-mdb-color.dropdown-toggle {
   background-color: #323a4e !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-mdb-color:not([disabled]):not(.disabled):active:focus, .btn-mdb-color:not([disabled]):not(.disabled).active:focus, .show > .btn-mdb-color.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .mdb-color-ic {
@@ -6340,8 +6340,8 @@ table.table a.btn.btn-mdb-color {
   background-color: #d74444;
 }
 .btn-red:focus, .btn-red.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-red:focus, .btn-red:active, .btn-red.active {
   background-color: #811b1b;
@@ -6354,12 +6354,12 @@ table.table a.btn.btn-mdb-color {
 }
 .btn-red:not([disabled]):not(.disabled):active, .btn-red:not([disabled]):not(.disabled).active, .show > .btn-red.dropdown-toggle {
   background-color: #811b1b !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-red:not([disabled]):not(.disabled):active:focus, .btn-red:not([disabled]):not(.disabled).active:focus, .show > .btn-red.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .red-ic {
@@ -6409,8 +6409,8 @@ table.table a.btn.btn-red {
   background-color: #ee578a;
 }
 .btn-pink:focus, .btn-pink.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-pink:focus, .btn-pink:active, .btn-pink.active {
   background-color: #b41249;
@@ -6423,12 +6423,12 @@ table.table a.btn.btn-red {
 }
 .btn-pink:not([disabled]):not(.disabled):active, .btn-pink:not([disabled]):not(.disabled).active, .show > .btn-pink.dropdown-toggle {
   background-color: #b41249 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-pink:not([disabled]):not(.disabled):active:focus, .btn-pink:not([disabled]):not(.disabled).active:focus, .show > .btn-pink.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .pink-ic {
@@ -6478,8 +6478,8 @@ table.table a.btn.btn-pink {
   background-color: #a028bf;
 }
 .btn-purple:focus, .btn-purple.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-purple:focus, .btn-purple:active, .btn-purple.active {
   background-color: #481256;
@@ -6492,12 +6492,12 @@ table.table a.btn.btn-pink {
 }
 .btn-purple:not([disabled]):not(.disabled):active, .btn-purple:not([disabled]):not(.disabled).active, .show > .btn-purple.dropdown-toggle {
   background-color: #481256 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-purple:not([disabled]):not(.disabled):active:focus, .btn-purple:not([disabled]):not(.disabled).active:focus, .show > .btn-purple.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .purple-ic {
@@ -6547,8 +6547,8 @@ table.table a.btn.btn-purple {
   background-color: #5b32bc;
 }
 .btn-deep-purple:focus, .btn-deep-purple.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-deep-purple:focus, .btn-deep-purple:active, .btn-deep-purple.active {
   background-color: #2a1758;
@@ -6561,12 +6561,12 @@ table.table a.btn.btn-purple {
 }
 .btn-deep-purple:not([disabled]):not(.disabled):active, .btn-deep-purple:not([disabled]):not(.disabled).active, .show > .btn-deep-purple.dropdown-toggle {
   background-color: #2a1758 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-deep-purple:not([disabled]):not(.disabled):active:focus, .btn-deep-purple:not([disabled]):not(.disabled).active:focus, .show > .btn-deep-purple.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .deep-purple-ic {
@@ -6616,8 +6616,8 @@ table.table a.btn.btn-deep-purple {
   background-color: #4d5ec1;
 }
 .btn-indigo:focus, .btn-indigo.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-indigo:focus, .btn-indigo:active, .btn-indigo.active {
   background-color: #252f69;
@@ -6630,12 +6630,12 @@ table.table a.btn.btn-deep-purple {
 }
 .btn-indigo:not([disabled]):not(.disabled):active, .btn-indigo:not([disabled]):not(.disabled).active, .show > .btn-indigo.dropdown-toggle {
   background-color: #252f69 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-indigo:not([disabled]):not(.disabled):active:focus, .btn-indigo:not([disabled]):not(.disabled).active:focus, .show > .btn-indigo.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .indigo-ic {
@@ -6685,8 +6685,8 @@ table.table a.btn.btn-indigo {
   background-color: #2083e4;
 }
 .btn-blue:focus, .btn-blue.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-blue:focus, .btn-blue:active, .btn-blue.active {
   background-color: #0e4377;
@@ -6699,12 +6699,12 @@ table.table a.btn.btn-indigo {
 }
 .btn-blue:not([disabled]):not(.disabled):active, .btn-blue:not([disabled]):not(.disabled).active, .show > .btn-blue.dropdown-toggle {
   background-color: #0e4377 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-blue:not([disabled]):not(.disabled):active:focus, .btn-blue:not([disabled]):not(.disabled).active:focus, .show > .btn-blue.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .blue-ic {
@@ -6754,8 +6754,8 @@ table.table a.btn.btn-blue {
   background-color: #9cc1ff;
 }
 .btn-light-blue:focus, .btn-light-blue.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-light-blue:focus, .btn-light-blue:active, .btn-light-blue.active {
   background-color: #1c71ff;
@@ -6768,12 +6768,12 @@ table.table a.btn.btn-blue {
 }
 .btn-light-blue:not([disabled]):not(.disabled):active, .btn-light-blue:not([disabled]):not(.disabled).active, .show > .btn-light-blue.dropdown-toggle {
   background-color: #1c71ff !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-light-blue:not([disabled]):not(.disabled):active:focus, .btn-light-blue:not([disabled]):not(.disabled).active:focus, .show > .btn-light-blue.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .light-blue-ic {
@@ -6823,8 +6823,8 @@ table.table a.btn.btn-light-blue {
   background-color: #00d3ee;
 }
 .btn-cyan:focus, .btn-cyan.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-cyan:focus, .btn-cyan:active, .btn-cyan.active {
   background-color: #00626e;
@@ -6837,12 +6837,12 @@ table.table a.btn.btn-light-blue {
 }
 .btn-cyan:not([disabled]):not(.disabled):active, .btn-cyan:not([disabled]):not(.disabled).active, .show > .btn-cyan.dropdown-toggle {
   background-color: #00626e !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-cyan:not([disabled]):not(.disabled):active:focus, .btn-cyan:not([disabled]):not(.disabled).active:focus, .show > .btn-cyan.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .cyan-ic {
@@ -6892,8 +6892,8 @@ table.table a.btn.btn-cyan {
   background-color: #009382;
 }
 .btn-teal:focus, .btn-teal.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-teal:focus, .btn-teal:active, .btn-teal.active {
   background-color: #001311;
@@ -6906,12 +6906,12 @@ table.table a.btn.btn-cyan {
 }
 .btn-teal:not([disabled]):not(.disabled):active, .btn-teal:not([disabled]):not(.disabled).active, .show > .btn-teal.dropdown-toggle {
   background-color: #001311 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-teal:not([disabled]):not(.disabled):active:focus, .btn-teal:not([disabled]):not(.disabled).active:focus, .show > .btn-teal.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .teal-ic {
@@ -6961,8 +6961,8 @@ table.table a.btn.btn-teal {
   background-color: #3fa044;
 }
 .btn-green:focus, .btn-green.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-green:focus, .btn-green:active, .btn-green.active {
   background-color: #1b451d;
@@ -6975,12 +6975,12 @@ table.table a.btn.btn-teal {
 }
 .btn-green:not([disabled]):not(.disabled):active, .btn-green:not([disabled]):not(.disabled).active, .show > .btn-green.dropdown-toggle {
   background-color: #1b451d !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-green:not([disabled]):not(.disabled):active:focus, .btn-green:not([disabled]):not(.disabled).active:focus, .show > .btn-green.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .green-ic {
@@ -7030,8 +7030,8 @@ table.table a.btn.btn-green {
   background-color: #97c95d;
 }
 .btn-light-green:focus, .btn-light-green.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-light-green:focus, .btn-light-green:active, .btn-light-green.active {
   background-color: #577d2a;
@@ -7044,12 +7044,12 @@ table.table a.btn.btn-green {
 }
 .btn-light-green:not([disabled]):not(.disabled):active, .btn-light-green:not([disabled]):not(.disabled).active, .show > .btn-light-green.dropdown-toggle {
   background-color: #577d2a !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-light-green:not([disabled]):not(.disabled):active:focus, .btn-light-green:not([disabled]):not(.disabled).active:focus, .show > .btn-light-green.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .light-green-ic {
@@ -7099,8 +7099,8 @@ table.table a.btn.btn-light-green {
   background-color: #c3c930;
 }
 .btn-lime:focus, .btn-lime.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-lime:focus, .btn-lime:active, .btn-lime.active {
   background-color: #5f6217;
@@ -7113,12 +7113,12 @@ table.table a.btn.btn-light-green {
 }
 .btn-lime:not([disabled]):not(.disabled):active, .btn-lime:not([disabled]):not(.disabled).active, .show > .btn-lime.dropdown-toggle {
   background-color: #5f6217 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-lime:not([disabled]):not(.disabled):active:focus, .btn-lime:not([disabled]):not(.disabled).active:focus, .show > .btn-lime.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .lime-ic {
@@ -7168,8 +7168,8 @@ table.table a.btn.btn-lime {
   background-color: #fbc846;
 }
 .btn-yellow:focus, .btn-yellow.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-yellow:focus, .btn-yellow:active, .btn-yellow.active {
   background-color: #be8904;
@@ -7182,12 +7182,12 @@ table.table a.btn.btn-lime {
 }
 .btn-yellow:not([disabled]):not(.disabled):active, .btn-yellow:not([disabled]):not(.disabled).active, .show > .btn-yellow.dropdown-toggle {
   background-color: #be8904 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-yellow:not([disabled]):not(.disabled):active:focus, .btn-yellow:not([disabled]):not(.disabled).active:focus, .show > .btn-yellow.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .yellow-ic {
@@ -7237,8 +7237,8 @@ table.table a.btn.btn-yellow {
   background-color: #ffaa1a;
 }
 .btn-amber:focus, .btn-amber.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-amber:focus, .btn-amber:active, .btn-amber.active {
   background-color: #996000;
@@ -7251,12 +7251,12 @@ table.table a.btn.btn-yellow {
 }
 .btn-amber:not([disabled]):not(.disabled):active, .btn-amber:not([disabled]):not(.disabled).active, .show > .btn-amber.dropdown-toggle {
   background-color: #996000 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-amber:not([disabled]):not(.disabled):active:focus, .btn-amber:not([disabled]):not(.disabled).active:focus, .show > .btn-amber.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .amber-ic {
@@ -7306,8 +7306,8 @@ table.table a.btn.btn-amber {
   background-color: #ff8910;
 }
 .btn-orange:focus, .btn-orange.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-orange:focus, .btn-orange:active, .btn-orange.active {
   background-color: #8f4800;
@@ -7320,12 +7320,12 @@ table.table a.btn.btn-amber {
 }
 .btn-orange:not([disabled]):not(.disabled):active, .btn-orange:not([disabled]):not(.disabled).active, .show > .btn-orange.dropdown-toggle {
   background-color: #8f4800 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-orange:not([disabled]):not(.disabled):active:focus, .btn-orange:not([disabled]):not(.disabled).active:focus, .show > .btn-orange.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .orange-ic {
@@ -7375,8 +7375,8 @@ table.table a.btn.btn-orange {
   background-color: #ff835d;
 }
 .btn-deep-orange:focus, .btn-deep-orange.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-deep-orange:focus, .btn-deep-orange:active, .btn-deep-orange.active {
   background-color: #dc3500;
@@ -7389,12 +7389,12 @@ table.table a.btn.btn-orange {
 }
 .btn-deep-orange:not([disabled]):not(.disabled):active, .btn-deep-orange:not([disabled]):not(.disabled).active, .show > .btn-deep-orange.dropdown-toggle {
   background-color: #dc3500 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-deep-orange:not([disabled]):not(.disabled):active:focus, .btn-deep-orange:not([disabled]):not(.disabled).active:focus, .show > .btn-deep-orange.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .deep-orange-ic {
@@ -7444,8 +7444,8 @@ table.table a.btn.btn-deep-orange {
   background-color: #896052;
 }
 .btn-brown:focus, .btn-brown.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-brown:focus, .btn-brown:active, .btn-brown.active {
   background-color: #392822;
@@ -7458,12 +7458,12 @@ table.table a.btn.btn-deep-orange {
 }
 .btn-brown:not([disabled]):not(.disabled):active, .btn-brown:not([disabled]):not(.disabled).active, .show > .btn-brown.dropdown-toggle {
   background-color: #392822 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-brown:not([disabled]):not(.disabled):active:focus, .btn-brown:not([disabled]):not(.disabled).active:focus, .show > .btn-brown.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .brown-ic {
@@ -7513,8 +7513,8 @@ table.table a.btn.btn-brown {
   background-color: #6e6e6e;
 }
 .btn-grey:focus, .btn-grey.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-grey:focus, .btn-grey:active, .btn-grey.active {
   background-color: #2e2e2e;
@@ -7527,12 +7527,12 @@ table.table a.btn.btn-brown {
 }
 .btn-grey:not([disabled]):not(.disabled):active, .btn-grey:not([disabled]):not(.disabled).active, .show > .btn-grey.dropdown-toggle {
   background-color: #2e2e2e !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-grey:not([disabled]):not(.disabled):active:focus, .btn-grey:not([disabled]):not(.disabled).active:focus, .show > .btn-grey.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .grey-ic {
@@ -7582,8 +7582,8 @@ table.table a.btn.btn-grey {
   background-color: #879ca7;
 }
 .btn-blue-grey:focus, .btn-blue-grey.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-blue-grey:focus, .btn-blue-grey:active, .btn-blue-grey.active {
   background-color: #4a5b64;
@@ -7596,12 +7596,12 @@ table.table a.btn.btn-grey {
 }
 .btn-blue-grey:not([disabled]):not(.disabled):active, .btn-blue-grey:not([disabled]):not(.disabled).active, .show > .btn-blue-grey.dropdown-toggle {
   background-color: #4a5b64 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-blue-grey:not([disabled]):not(.disabled):active:focus, .btn-blue-grey:not([disabled]):not(.disabled).active:focus, .show > .btn-blue-grey.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .blue-grey-ic {
@@ -7651,8 +7651,8 @@ table.table a.btn.btn-blue-grey {
   background-color: #2e2e2e;
 }
 .btn-dark:focus, .btn-dark.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-dark:focus, .btn-dark:active, .btn-dark.active {
   background-color: black;
@@ -7665,12 +7665,12 @@ table.table a.btn.btn-blue-grey {
 }
 .btn-dark:not([disabled]):not(.disabled):active, .btn-dark:not([disabled]):not(.disabled).active, .show > .btn-dark.dropdown-toggle {
   background-color: black !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-dark:not([disabled]):not(.disabled):active:focus, .btn-dark:not([disabled]):not(.disabled).active:focus, .show > .btn-dark.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .dark-ic {
@@ -7720,8 +7720,8 @@ table.table a.btn.btn-dark {
   background-color: #ededed;
 }
 .btn-light:focus, .btn-light.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-light:focus, .btn-light:active, .btn-light.active {
   background-color: #adadad;
@@ -7734,12 +7734,12 @@ table.table a.btn.btn-dark {
 }
 .btn-light:not([disabled]):not(.disabled):active, .btn-light:not([disabled]):not(.disabled).active, .show > .btn-light.dropdown-toggle {
   background-color: #adadad !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-light:not([disabled]):not(.disabled):active:focus, .btn-light:not([disabled]):not(.disabled).active:focus, .show > .btn-light.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .light-ic {
@@ -7789,8 +7789,8 @@ table.table a.btn.btn-light {
   background-color: white;
 }
 .btn-white:focus, .btn-white.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-white:focus, .btn-white:active, .btn-white.active {
   background-color: #cccccc;
@@ -7803,12 +7803,12 @@ table.table a.btn.btn-light {
 }
 .btn-white:not([disabled]):not(.disabled):active, .btn-white:not([disabled]):not(.disabled).active, .show > .btn-white.dropdown-toggle {
   background-color: #cccccc !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-white:not([disabled]):not(.disabled):active:focus, .btn-white:not([disabled]):not(.disabled).active:focus, .show > .btn-white.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .white-ic {
@@ -7858,8 +7858,8 @@ table.table a.btn.btn-white {
   background-color: #0d0d0d;
 }
 .btn-black:focus, .btn-black.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-black:focus, .btn-black:active, .btn-black.active {
   background-color: black;
@@ -7872,12 +7872,12 @@ table.table a.btn.btn-white {
 }
 .btn-black:not([disabled]):not(.disabled):active, .btn-black:not([disabled]):not(.disabled).active, .show > .btn-black.dropdown-toggle {
   background-color: black !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-black:not([disabled]):not(.disabled):active:focus, .btn-black:not([disabled]):not(.disabled).active:focus, .show > .btn-black.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .black-ic {
@@ -10745,8 +10745,8 @@ button, html [type=button], [type=reset], [type=submit] {
   background-color: #4264aa;
 }
 .btn-fb:focus, .btn-fb.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-fb:focus, .btn-fb:active, .btn-fb.active {
   background-color: #1e2e4f;
@@ -10759,12 +10759,12 @@ button, html [type=button], [type=reset], [type=submit] {
 }
 .btn-fb:not([disabled]):not(.disabled):active, .btn-fb:not([disabled]):not(.disabled).active, .show > .btn-fb.dropdown-toggle {
   background-color: #1e2e4f !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-fb:not([disabled]):not(.disabled):active:focus, .btn-fb:not([disabled]):not(.disabled).active:focus, .show > .btn-fb.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .fb-ic {
@@ -10793,8 +10793,8 @@ table.table a.btn.btn-fb {
   background-color: #6cb7f0;
 }
 .btn-tw:focus, .btn-tw.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-tw:focus, .btn-tw:active, .btn-tw.active {
   background-color: #147bc9;
@@ -10807,12 +10807,12 @@ table.table a.btn.btn-fb {
 }
 .btn-tw:not([disabled]):not(.disabled):active, .btn-tw:not([disabled]):not(.disabled).active, .show > .btn-tw.dropdown-toggle {
   background-color: #147bc9 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-tw:not([disabled]):not(.disabled):active:focus, .btn-tw:not([disabled]):not(.disabled).active:focus, .show > .btn-tw.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .tw-ic {
@@ -10841,8 +10841,8 @@ table.table a.btn.btn-tw {
   background-color: #e15f4f;
 }
 .btn-gplus:focus, .btn-gplus.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-gplus:focus, .btn-gplus:active, .btn-gplus.active {
   background-color: #96271a;
@@ -10855,12 +10855,12 @@ table.table a.btn.btn-tw {
 }
 .btn-gplus:not([disabled]):not(.disabled):active, .btn-gplus:not([disabled]):not(.disabled).active, .show > .btn-gplus.dropdown-toggle {
   background-color: #96271a !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-gplus:not([disabled]):not(.disabled):active:focus, .btn-gplus:not([disabled]):not(.disabled).active:focus, .show > .btn-gplus.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .gplus-ic {
@@ -10889,8 +10889,8 @@ table.table a.btn.btn-gplus {
   background-color: #ef4746;
 }
 .btn-yt:focus, .btn-yt.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-yt:focus, .btn-yt:active, .btn-yt.active {
   background-color: #a80f0e;
@@ -10903,12 +10903,12 @@ table.table a.btn.btn-gplus {
 }
 .btn-yt:not([disabled]):not(.disabled):active, .btn-yt:not([disabled]):not(.disabled).active, .show > .btn-yt.dropdown-toggle {
   background-color: #a80f0e !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-yt:not([disabled]):not(.disabled):active:focus, .btn-yt:not([disabled]):not(.disabled).active:focus, .show > .btn-yt.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .yt-ic {
@@ -10937,8 +10937,8 @@ table.table a.btn.btn-yt {
   background-color: #0092e4;
 }
 .btn-li:focus, .btn-li.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-li:focus, .btn-li:active, .btn-li.active {
   background-color: #004064;
@@ -10951,12 +10951,12 @@ table.table a.btn.btn-yt {
 }
 .btn-li:not([disabled]):not(.disabled):active, .btn-li:not([disabled]):not(.disabled).active, .show > .btn-li.dropdown-toggle {
   background-color: #004064 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-li:not([disabled]):not(.disabled):active:focus, .btn-li:not([disabled]):not(.disabled).active:focus, .show > .btn-li.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .li-ic {
@@ -10985,8 +10985,8 @@ table.table a.btn.btn-li {
   background-color: #dd131b;
 }
 .btn-pin:focus, .btn-pin.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-pin:focus, .btn-pin:active, .btn-pin.active {
   background-color: #68090d;
@@ -10999,12 +10999,12 @@ table.table a.btn.btn-li {
 }
 .btn-pin:not([disabled]):not(.disabled):active, .btn-pin:not([disabled]):not(.disabled).active, .show > .btn-pin.dropdown-toggle {
   background-color: #68090d !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-pin:not([disabled]):not(.disabled):active:focus, .btn-pin:not([disabled]):not(.disabled).active:focus, .show > .btn-pin.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .pin-ic {
@@ -11033,8 +11033,8 @@ table.table a.btn.btn-pin {
   background-color: #356b99;
 }
 .btn-ins:focus, .btn-ins.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-ins:focus, .btn-ins:active, .btn-ins.active {
   background-color: #14293a;
@@ -11047,12 +11047,12 @@ table.table a.btn.btn-pin {
 }
 .btn-ins:not([disabled]):not(.disabled):active, .btn-ins:not([disabled]):not(.disabled).active, .show > .btn-ins.dropdown-toggle {
   background-color: #14293a !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-ins:not([disabled]):not(.disabled):active:focus, .btn-ins:not([disabled]):not(.disabled).active:focus, .show > .btn-ins.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .ins-ic {
@@ -11081,8 +11081,8 @@ table.table a.btn.btn-ins {
   background-color: #404040;
 }
 .btn-git:focus, .btn-git.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-git:focus, .btn-git:active, .btn-git.active {
   background-color: black;
@@ -11095,12 +11095,12 @@ table.table a.btn.btn-ins {
 }
 .btn-git:not([disabled]):not(.disabled):active, .btn-git:not([disabled]):not(.disabled).active, .show > .btn-git.dropdown-toggle {
   background-color: black !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-git:not([disabled]):not(.disabled):active:focus, .btn-git:not([disabled]):not(.disabled).active:focus, .show > .btn-git.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .git-ic {
@@ -11129,8 +11129,8 @@ table.table a.btn.btn-git {
   background-color: #45d4c6;
 }
 .btn-comm:focus, .btn-comm.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-comm:focus, .btn-comm:active, .btn-comm.active {
   background-color: #1d7c73;
@@ -11143,12 +11143,12 @@ table.table a.btn.btn-git {
 }
 .btn-comm:not([disabled]):not(.disabled):active, .btn-comm:not([disabled]):not(.disabled).active, .show > .btn-comm.dropdown-toggle {
   background-color: #1d7c73 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-comm:not([disabled]):not(.disabled):active:focus, .btn-comm:not([disabled]):not(.disabled).active:focus, .show > .btn-comm.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .comm-ic {
@@ -11177,8 +11177,8 @@ table.table a.btn.btn-comm {
   background-color: #5882b1;
 }
 .btn-vk:focus, .btn-vk.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-vk:focus, .btn-vk:active, .btn-vk.active {
   background-color: #2c435d;
@@ -11191,12 +11191,12 @@ table.table a.btn.btn-comm {
 }
 .btn-vk:not([disabled]):not(.disabled):active, .btn-vk:not([disabled]):not(.disabled).active, .show > .btn-vk.dropdown-toggle {
   background-color: #2c435d !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-vk:not([disabled]):not(.disabled):active:focus, .btn-vk:not([disabled]):not(.disabled).active:focus, .show > .btn-vk.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .vk-ic {
@@ -11225,8 +11225,8 @@ table.table a.btn.btn-vk {
   background-color: #ee6198;
 }
 .btn-dribbble:focus, .btn-dribbble.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-dribbble:focus, .btn-dribbble:active, .btn-dribbble.active {
   background-color: #bc1455;
@@ -11239,12 +11239,12 @@ table.table a.btn.btn-vk {
 }
 .btn-dribbble:not([disabled]):not(.disabled):active, .btn-dribbble:not([disabled]):not(.disabled).active, .show > .btn-dribbble.dropdown-toggle {
   background-color: #bc1455 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-dribbble:not([disabled]):not(.disabled):active:focus, .btn-dribbble:not([disabled]):not(.disabled).active:focus, .show > .btn-dribbble.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .dribbble-ic {
@@ -11273,8 +11273,8 @@ table.table a.btn.btn-dribbble {
   background-color: #ffb75e;
 }
 .btn-so:focus, .btn-so.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-so:focus, .btn-so:active, .btn-so.active {
   background-color: #dd7b00;
@@ -11287,12 +11287,12 @@ table.table a.btn.btn-dribbble {
 }
 .btn-so:not([disabled]):not(.disabled):active, .btn-so:not([disabled]):not(.disabled).active, .show > .btn-so.dropdown-toggle {
   background-color: #dd7b00 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-so:not([disabled]):not(.disabled):active:focus, .btn-so:not([disabled]):not(.disabled).active:focus, .show > .btn-so.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .so-ic {
@@ -11321,8 +11321,8 @@ table.table a.btn.btn-so {
   background-color: #68be97;
 }
 .btn-slack:focus, .btn-slack.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-slack:focus, .btn-slack:active, .btn-slack.active {
   background-color: #327456;
@@ -11335,12 +11335,12 @@ table.table a.btn.btn-so {
 }
 .btn-slack:not([disabled]):not(.disabled):active, .btn-slack:not([disabled]):not(.disabled).active, .show > .btn-slack.dropdown-toggle {
   background-color: #327456 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-slack:not([disabled]):not(.disabled):active:focus, .btn-slack:not([disabled]):not(.disabled).active:focus, .show > .btn-slack.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .slack-ic {
@@ -11369,8 +11369,8 @@ table.table a.btn.btn-slack {
   background-color: #565d6b;
 }
 .btn-email:focus, .btn-email.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-email:focus, .btn-email:active, .btn-email.active {
   background-color: #1d2025;
@@ -11383,12 +11383,12 @@ table.table a.btn.btn-slack {
 }
 .btn-email:not([disabled]):not(.disabled):active, .btn-email:not([disabled]):not(.disabled).active, .show > .btn-email.dropdown-toggle {
   background-color: #1d2025 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-email:not([disabled]):not(.disabled):active:focus, .btn-email:not([disabled]):not(.disabled).active:focus, .show > .btn-email.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .email-ic {
@@ -11417,8 +11417,8 @@ table.table a.btn.btn-email {
   background-color: #ff581a;
 }
 .btn-reddit:focus, .btn-reddit.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-reddit:focus, .btn-reddit:active, .btn-reddit.active {
   background-color: #992900;
@@ -11431,12 +11431,12 @@ table.table a.btn.btn-email {
 }
 .btn-reddit:not([disabled]):not(.disabled):active, .btn-reddit:not([disabled]):not(.disabled).active, .show > .btn-reddit.dropdown-toggle {
   background-color: #992900 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-reddit:not([disabled]):not(.disabled):active:focus, .btn-reddit:not([disabled]):not(.disabled).active:focus, .show > .btn-reddit.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .reddit-ic {
@@ -11465,8 +11465,8 @@ table.table a.btn.btn-reddit {
   background-color: #6f48b6;
 }
 .btn-twitch:focus, .btn-twitch.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-twitch:focus, .btn-twitch:active, .btn-twitch.active {
   background-color: #37245b;
@@ -11479,12 +11479,12 @@ table.table a.btn.btn-reddit {
 }
 .btn-twitch:not([disabled]):not(.disabled):active, .btn-twitch:not([disabled]):not(.disabled).active, .show > .btn-twitch.dropdown-toggle {
   background-color: #37245b !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-twitch:not([disabled]):not(.disabled):active:focus, .btn-twitch:not([disabled]):not(.disabled).active:focus, .show > .btn-twitch.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .twitch-ic {
@@ -11513,8 +11513,8 @@ table.table a.btn.btn-twitch {
   background-color: #869adf;
 }
 .btn-discord:focus, .btn-discord.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-discord:focus, .btn-discord:active, .btn-discord.active {
   background-color: #304eb6;
@@ -11527,12 +11527,12 @@ table.table a.btn.btn-twitch {
 }
 .btn-discord:not([disabled]):not(.disabled):active, .btn-discord:not([disabled]):not(.disabled).active, .show > .btn-discord.dropdown-toggle {
   background-color: #304eb6 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-discord:not([disabled]):not(.disabled):active:focus, .btn-discord:not([disabled]):not(.disabled).active:focus, .show > .btn-discord.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .discord-ic {
@@ -11561,8 +11561,8 @@ table.table a.btn.btn-discord {
   background-color: #36dc74;
 }
 .btn-whatsapp:focus, .btn-whatsapp.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-whatsapp:focus, .btn-whatsapp:active, .btn-whatsapp.active {
   background-color: #167c3c;
@@ -11575,12 +11575,12 @@ table.table a.btn.btn-discord {
 }
 .btn-whatsapp:not([disabled]):not(.disabled):active, .btn-whatsapp:not([disabled]):not(.disabled).active, .show > .btn-whatsapp.dropdown-toggle {
   background-color: #167c3c !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .btn-whatsapp:not([disabled]):not(.disabled):active:focus, .btn-whatsapp:not([disabled]):not(.disabled).active:focus, .show > .btn-whatsapp.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .whatsapp-ic {
@@ -16583,8 +16583,8 @@ button.md-toast-close-button {
   background-color: white;
 }
 .test-skin .btn-primary:focus, .test-skin .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .test-skin .btn-primary:focus, .test-skin .btn-primary:active, .test-skin .btn-primary.active {
   background-color: #cccccc;
@@ -16597,12 +16597,12 @@ button.md-toast-close-button {
 }
 .test-skin .btn-primary:not([disabled]):not(.disabled):active, .test-skin .btn-primary:not([disabled]):not(.disabled).active, .show > .test-skin .btn-primary.dropdown-toggle {
   background-color: #cccccc !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .test-skin .btn-primary:not([disabled]):not(.disabled):active:focus, .test-skin .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .test-skin .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .test-skin .primary-ic {
   color: #fff !important;
@@ -16627,8 +16627,8 @@ button.md-toast-close-button {
   background-color: white;
 }
 .test-skin .btn-secondary:focus, .test-skin .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .test-skin .btn-secondary:focus, .test-skin .btn-secondary:active, .test-skin .btn-secondary.active {
   background-color: #cccccc;
@@ -16641,12 +16641,12 @@ button.md-toast-close-button {
 }
 .test-skin .btn-secondary:not([disabled]):not(.disabled):active, .test-skin .btn-secondary:not([disabled]):not(.disabled).active, .show > .test-skin .btn-secondary.dropdown-toggle {
   background-color: #cccccc !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .test-skin .btn-secondary:not([disabled]):not(.disabled):active:focus, .test-skin .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .test-skin .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .test-skin .secondary-ic {
   color: #fff !important;
@@ -16671,8 +16671,8 @@ button.md-toast-close-button {
   background-color: white;
 }
 .test-skin .btn-default:focus, .test-skin .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .test-skin .btn-default:focus, .test-skin .btn-default:active, .test-skin .btn-default.active {
   background-color: #cccccc;
@@ -16685,12 +16685,12 @@ button.md-toast-close-button {
 }
 .test-skin .btn-default:not([disabled]):not(.disabled):active, .test-skin .btn-default:not([disabled]):not(.disabled).active, .show > .test-skin .btn-default.dropdown-toggle {
   background-color: #cccccc !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .test-skin .btn-default:not([disabled]):not(.disabled):active:focus, .test-skin .btn-default:not([disabled]):not(.disabled).active:focus, .show > .test-skin .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .test-skin .default-ic {
   color: #fff !important;
@@ -17061,8 +17061,8 @@ button.md-toast-close-button {
   background-color: #5a95f5;
 }
 .white-skin .btn-primary:focus, .white-skin .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .white-skin .btn-primary:focus, .white-skin .btn-primary:active, .white-skin .btn-primary.active {
   background-color: #0b51c5;
@@ -17075,12 +17075,12 @@ button.md-toast-close-button {
 }
 .white-skin .btn-primary:not([disabled]):not(.disabled):active, .white-skin .btn-primary:not([disabled]):not(.disabled).active, .show > .white-skin .btn-primary.dropdown-toggle {
   background-color: #0b51c5 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .white-skin .btn-primary:not([disabled]):not(.disabled):active:focus, .white-skin .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .white-skin .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .white-skin .primary-ic {
   color: #4285f4 !important;
@@ -17105,8 +17105,8 @@ button.md-toast-close-button {
   background-color: #fc8078;
 }
 .white-skin .btn-secondary:focus, .white-skin .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .white-skin .btn-secondary:focus, .white-skin .btn-secondary:active, .white-skin .btn-secondary.active {
   background-color: #f01205;
@@ -17119,12 +17119,12 @@ button.md-toast-close-button {
 }
 .white-skin .btn-secondary:not([disabled]):not(.disabled):active, .white-skin .btn-secondary:not([disabled]):not(.disabled).active, .show > .white-skin .btn-secondary.dropdown-toggle {
   background-color: #f01205 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .white-skin .btn-secondary:not([disabled]):not(.disabled):active:focus, .white-skin .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .white-skin .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .white-skin .secondary-ic {
   color: #fc685f !important;
@@ -17149,8 +17149,8 @@ button.md-toast-close-button {
   background-color: #525252;
 }
 .white-skin .btn-default:focus, .white-skin .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .white-skin .btn-default:focus, .white-skin .btn-default:active, .white-skin .btn-default.active {
   background-color: #121212;
@@ -17163,12 +17163,12 @@ button.md-toast-close-button {
 }
 .white-skin .btn-default:not([disabled]):not(.disabled):active, .white-skin .btn-default:not([disabled]):not(.disabled).active, .show > .white-skin .btn-default.dropdown-toggle {
   background-color: #121212 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .white-skin .btn-default:not([disabled]):not(.disabled):active:focus, .white-skin .btn-default:not([disabled]):not(.disabled).active:focus, .show > .white-skin .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .white-skin .default-ic {
   color: #454545 !important;
@@ -17490,8 +17490,8 @@ button.md-toast-close-button {
   background-color: #3dd8ad;
 }
 .black-skin .btn-primary:focus, .black-skin .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .black-skin .btn-primary:focus, .black-skin .btn-primary:active, .black-skin .btn-primary.active {
   background-color: #197c61;
@@ -17504,12 +17504,12 @@ button.md-toast-close-button {
 }
 .black-skin .btn-primary:not([disabled]):not(.disabled):active, .black-skin .btn-primary:not([disabled]):not(.disabled).active, .show > .black-skin .btn-primary.dropdown-toggle {
   background-color: #197c61 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .black-skin .btn-primary:not([disabled]):not(.disabled):active:focus, .black-skin .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .black-skin .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .black-skin .primary-ic {
   color: #2ad1a3 !important;
@@ -17534,8 +17534,8 @@ button.md-toast-close-button {
   background-color: #1253a1;
 }
 .black-skin .btn-secondary:focus, .black-skin .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .black-skin .btn-secondary:focus, .black-skin .btn-secondary:active, .black-skin .btn-secondary.active {
   background-color: #05182e;
@@ -17548,12 +17548,12 @@ button.md-toast-close-button {
 }
 .black-skin .btn-secondary:not([disabled]):not(.disabled):active, .black-skin .btn-secondary:not([disabled]):not(.disabled).active, .show > .black-skin .btn-secondary.dropdown-toggle {
   background-color: #05182e !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .black-skin .btn-secondary:not([disabled]):not(.disabled):active:focus, .black-skin .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .black-skin .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .black-skin .secondary-ic {
   color: #0f478a !important;
@@ -17578,8 +17578,8 @@ button.md-toast-close-button {
   background-color: #2f2f2f;
 }
 .black-skin .btn-default:focus, .black-skin .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .black-skin .btn-default:focus, .black-skin .btn-default:active, .black-skin .btn-default.active {
   background-color: black;
@@ -17592,12 +17592,12 @@ button.md-toast-close-button {
 }
 .black-skin .btn-default:not([disabled]):not(.disabled):active, .black-skin .btn-default:not([disabled]):not(.disabled).active, .show > .black-skin .btn-default.dropdown-toggle {
   background-color: black !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .black-skin .btn-default:not([disabled]):not(.disabled):active:focus, .black-skin .btn-default:not([disabled]):not(.disabled).active:focus, .show > .black-skin .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .black-skin .default-ic {
   color: #222 !important;
@@ -17919,8 +17919,8 @@ button.md-toast-close-button {
   background-color: #ffb35c;
 }
 .cyan-skin .btn-primary:focus, .cyan-skin .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .cyan-skin .btn-primary:focus, .cyan-skin .btn-primary:active, .cyan-skin .btn-primary.active {
   background-color: #db7500;
@@ -17933,12 +17933,12 @@ button.md-toast-close-button {
 }
 .cyan-skin .btn-primary:not([disabled]):not(.disabled):active, .cyan-skin .btn-primary:not([disabled]):not(.disabled).active, .show > .cyan-skin .btn-primary.dropdown-toggle {
   background-color: #db7500 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .cyan-skin .btn-primary:not([disabled]):not(.disabled):active:focus, .cyan-skin .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .cyan-skin .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .cyan-skin .primary-ic {
   color: #ffa742 !important;
@@ -17963,8 +17963,8 @@ button.md-toast-close-button {
   background-color: #58b8c6;
 }
 .cyan-skin .btn-secondary:focus, .cyan-skin .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .cyan-skin .btn-secondary:focus, .cyan-skin .btn-secondary:active, .cyan-skin .btn-secondary.active {
   background-color: #286d77;
@@ -17977,12 +17977,12 @@ button.md-toast-close-button {
 }
 .cyan-skin .btn-secondary:not([disabled]):not(.disabled):active, .cyan-skin .btn-secondary:not([disabled]):not(.disabled).active, .show > .cyan-skin .btn-secondary.dropdown-toggle {
   background-color: #286d77 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .cyan-skin .btn-secondary:not([disabled]):not(.disabled):active:focus, .cyan-skin .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .cyan-skin .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .cyan-skin .secondary-ic {
   color: #45b0c0 !important;
@@ -18007,8 +18007,8 @@ button.md-toast-close-button {
   background-color: #155877;
 }
 .cyan-skin .btn-default:focus, .cyan-skin .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .cyan-skin .btn-default:focus, .cyan-skin .btn-default:active, .cyan-skin .btn-default.active {
   background-color: #02080a;
@@ -18021,12 +18021,12 @@ button.md-toast-close-button {
 }
 .cyan-skin .btn-default:not([disabled]):not(.disabled):active, .cyan-skin .btn-default:not([disabled]):not(.disabled).active, .show > .cyan-skin .btn-default.dropdown-toggle {
   background-color: #02080a !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .cyan-skin .btn-default:not([disabled]):not(.disabled):active:focus, .cyan-skin .btn-default:not([disabled]):not(.disabled).active:focus, .show > .cyan-skin .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .cyan-skin .default-ic {
   color: #114861 !important;
@@ -18348,8 +18348,8 @@ button.md-toast-close-button {
   background-color: #4abde8;
 }
 .mdb-skin .btn-primary:focus, .mdb-skin .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .mdb-skin .btn-primary:focus, .mdb-skin .btn-primary:active, .mdb-skin .btn-primary.active {
   background-color: #14799e;
@@ -18362,12 +18362,12 @@ button.md-toast-close-button {
 }
 .mdb-skin .btn-primary:not([disabled]):not(.disabled):active, .mdb-skin .btn-primary:not([disabled]):not(.disabled).active, .show > .mdb-skin .btn-primary.dropdown-toggle {
   background-color: #14799e !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .mdb-skin .btn-primary:not([disabled]):not(.disabled):active:focus, .mdb-skin .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .mdb-skin .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .mdb-skin .primary-ic {
   color: #33b5e5 !important;
@@ -18392,8 +18392,8 @@ button.md-toast-close-button {
   background-color: #114a7d;
 }
 .mdb-skin .btn-secondary:focus, .mdb-skin .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .mdb-skin .btn-secondary:focus, .mdb-skin .btn-secondary:active, .mdb-skin .btn-secondary.active {
   background-color: #02080d;
@@ -18406,12 +18406,12 @@ button.md-toast-close-button {
 }
 .mdb-skin .btn-secondary:not([disabled]):not(.disabled):active, .mdb-skin .btn-secondary:not([disabled]):not(.disabled).active, .show > .mdb-skin .btn-secondary.dropdown-toggle {
   background-color: #02080d !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .mdb-skin .btn-secondary:not([disabled]):not(.disabled):active:focus, .mdb-skin .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .mdb-skin .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .mdb-skin .secondary-ic {
   color: #0e3d67 !important;
@@ -18436,8 +18436,8 @@ button.md-toast-close-button {
   background-color: #1e71ae;
 }
 .mdb-skin .btn-default:focus, .mdb-skin .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .mdb-skin .btn-default:focus, .mdb-skin .btn-default:active, .mdb-skin .btn-default.active {
   background-color: #0b2a41;
@@ -18450,12 +18450,12 @@ button.md-toast-close-button {
 }
 .mdb-skin .btn-default:not([disabled]):not(.disabled):active, .mdb-skin .btn-default:not([disabled]):not(.disabled).active, .show > .mdb-skin .btn-default.dropdown-toggle {
   background-color: #0b2a41 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .mdb-skin .btn-default:not([disabled]):not(.disabled):active:focus, .mdb-skin .btn-default:not([disabled]):not(.disabled).active:focus, .show > .mdb-skin .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .mdb-skin .default-ic {
   color: #1a6398 !important;
@@ -18777,8 +18777,8 @@ button.md-toast-close-button {
   background-color: #bb9cf3;
 }
 .deep-purple-skin .btn-primary:focus, .deep-purple-skin .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .deep-purple-skin .btn-primary:focus, .deep-purple-skin .btn-primary:active, .deep-purple-skin .btn-primary.active {
   background-color: #6e2ae5;
@@ -18791,12 +18791,12 @@ button.md-toast-close-button {
 }
 .deep-purple-skin .btn-primary:not([disabled]):not(.disabled):active, .deep-purple-skin .btn-primary:not([disabled]):not(.disabled).active, .show > .deep-purple-skin .btn-primary.dropdown-toggle {
   background-color: #6e2ae5 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .deep-purple-skin .btn-primary:not([disabled]):not(.disabled):active:focus, .deep-purple-skin .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .deep-purple-skin .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .deep-purple-skin .primary-ic {
   color: #ac85f0 !important;
@@ -18821,8 +18821,8 @@ button.md-toast-close-button {
   background-color: #7a58b1;
 }
 .deep-purple-skin .btn-secondary:focus, .deep-purple-skin .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .deep-purple-skin .btn-secondary:focus, .deep-purple-skin .btn-secondary:active, .deep-purple-skin .btn-secondary.active {
   background-color: #3f2c5d;
@@ -18835,12 +18835,12 @@ button.md-toast-close-button {
 }
 .deep-purple-skin .btn-secondary:not([disabled]):not(.disabled):active, .deep-purple-skin .btn-secondary:not([disabled]):not(.disabled).active, .show > .deep-purple-skin .btn-secondary.dropdown-toggle {
   background-color: #3f2c5d !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .deep-purple-skin .btn-secondary:not([disabled]):not(.disabled):active:focus, .deep-purple-skin .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .deep-purple-skin .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .deep-purple-skin .secondary-ic {
   color: #6e4ca3 !important;
@@ -18865,8 +18865,8 @@ button.md-toast-close-button {
   background-color: #413670;
 }
 .deep-purple-skin .btn-default:focus, .deep-purple-skin .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .deep-purple-skin .btn-default:focus, .deep-purple-skin .btn-default:active, .deep-purple-skin .btn-default.active {
   background-color: #0f0d1a;
@@ -18879,12 +18879,12 @@ button.md-toast-close-button {
 }
 .deep-purple-skin .btn-default:not([disabled]):not(.disabled):active, .deep-purple-skin .btn-default:not([disabled]):not(.disabled).active, .show > .deep-purple-skin .btn-default.dropdown-toggle {
   background-color: #0f0d1a !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .deep-purple-skin .btn-default:not([disabled]):not(.disabled):active:focus, .deep-purple-skin .btn-default:not([disabled]):not(.disabled).active:focus, .show > .deep-purple-skin .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .deep-purple-skin .default-ic {
   color: #372e5f !important;
@@ -19206,8 +19206,8 @@ button.md-toast-close-button {
   background-color: #54cccc;
 }
 .navy-blue-skin .btn-primary:focus, .navy-blue-skin .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .navy-blue-skin .btn-primary:focus, .navy-blue-skin .btn-primary:active, .navy-blue-skin .btn-primary.active {
   background-color: #257b7b;
@@ -19220,12 +19220,12 @@ button.md-toast-close-button {
 }
 .navy-blue-skin .btn-primary:not([disabled]):not(.disabled):active, .navy-blue-skin .btn-primary:not([disabled]):not(.disabled).active, .show > .navy-blue-skin .btn-primary.dropdown-toggle {
   background-color: #257b7b !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .navy-blue-skin .btn-primary:not([disabled]):not(.disabled):active:focus, .navy-blue-skin .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .navy-blue-skin .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .navy-blue-skin .primary-ic {
   color: #40c6c6 !important;
@@ -19250,8 +19250,8 @@ button.md-toast-close-button {
   background-color: #8b63bc;
 }
 .navy-blue-skin .btn-secondary:focus, .navy-blue-skin .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .navy-blue-skin .btn-secondary:focus, .navy-blue-skin .btn-secondary:active, .navy-blue-skin .btn-secondary.active {
   background-color: #4d306f;
@@ -19264,12 +19264,12 @@ button.md-toast-close-button {
 }
 .navy-blue-skin .btn-secondary:not([disabled]):not(.disabled):active, .navy-blue-skin .btn-secondary:not([disabled]):not(.disabled).active, .show > .navy-blue-skin .btn-secondary.dropdown-toggle {
   background-color: #4d306f !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .navy-blue-skin .btn-secondary:not([disabled]):not(.disabled):active:focus, .navy-blue-skin .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .navy-blue-skin .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .navy-blue-skin .secondary-ic {
   color: #7e51b4 !important;
@@ -19294,8 +19294,8 @@ button.md-toast-close-button {
   background-color: #314267;
 }
 .navy-blue-skin .btn-default:focus, .navy-blue-skin .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .navy-blue-skin .btn-default:focus, .navy-blue-skin .btn-default:active, .navy-blue-skin .btn-default.active {
   background-color: #080b11;
@@ -19308,12 +19308,12 @@ button.md-toast-close-button {
 }
 .navy-blue-skin .btn-default:not([disabled]):not(.disabled):active, .navy-blue-skin .btn-default:not([disabled]):not(.disabled).active, .show > .navy-blue-skin .btn-default.dropdown-toggle {
   background-color: #080b11 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .navy-blue-skin .btn-default:not([disabled]):not(.disabled):active:focus, .navy-blue-skin .btn-default:not([disabled]):not(.disabled).active:focus, .show > .navy-blue-skin .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .navy-blue-skin .default-ic {
   color: #293756 !important;
@@ -19635,8 +19635,8 @@ button.md-toast-close-button {
   background-color: #732544;
 }
 .pink-skin .btn-primary:focus, .pink-skin .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .pink-skin .btn-primary:focus, .pink-skin .btn-primary:active, .pink-skin .btn-primary.active {
   background-color: #13060b;
@@ -19649,12 +19649,12 @@ button.md-toast-close-button {
 }
 .pink-skin .btn-primary:not([disabled]):not(.disabled):active, .pink-skin .btn-primary:not([disabled]):not(.disabled).active, .show > .pink-skin .btn-primary.dropdown-toggle {
   background-color: #13060b !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .pink-skin .btn-primary:not([disabled]):not(.disabled):active:focus, .pink-skin .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .pink-skin .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .pink-skin .primary-ic {
   color: #601f39 !important;
@@ -19679,8 +19679,8 @@ button.md-toast-close-button {
   background-color: #ea7aab;
 }
 .pink-skin .btn-secondary:focus, .pink-skin .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .pink-skin .btn-secondary:focus, .pink-skin .btn-secondary:active, .pink-skin .btn-secondary.active {
   background-color: #c61f68;
@@ -19693,12 +19693,12 @@ button.md-toast-close-button {
 }
 .pink-skin .btn-secondary:not([disabled]):not(.disabled):active, .pink-skin .btn-secondary:not([disabled]):not(.disabled).active, .show > .pink-skin .btn-secondary.dropdown-toggle {
   background-color: #c61f68 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .pink-skin .btn-secondary:not([disabled]):not(.disabled):active:focus, .pink-skin .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .pink-skin .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .pink-skin .secondary-ic {
   color: #e7649d !important;
@@ -19723,8 +19723,8 @@ button.md-toast-close-button {
   background-color: #5e6074;
 }
 .pink-skin .btn-default:focus, .pink-skin .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .pink-skin .btn-default:focus, .pink-skin .btn-default:active, .pink-skin .btn-default.active {
   background-color: #25262e;
@@ -19737,12 +19737,12 @@ button.md-toast-close-button {
 }
 .pink-skin .btn-default:not([disabled]):not(.disabled):active, .pink-skin .btn-default:not([disabled]):not(.disabled).active, .show > .pink-skin .btn-default.dropdown-toggle {
   background-color: #25262e !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .pink-skin .btn-default:not([disabled]):not(.disabled):active:focus, .pink-skin .btn-default:not([disabled]):not(.disabled).active:focus, .show > .pink-skin .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .pink-skin .default-ic {
   color: #535466 !important;
@@ -20064,8 +20064,8 @@ button.md-toast-close-button {
   background-color: #fd7f9f;
 }
 .indigo-skin .btn-primary:focus, .indigo-skin .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .indigo-skin .btn-primary:focus, .indigo-skin .btn-primary:active, .indigo-skin .btn-primary.active {
   background-color: #fa0341;
@@ -20078,12 +20078,12 @@ button.md-toast-close-button {
 }
 .indigo-skin .btn-primary:not([disabled]):not(.disabled):active, .indigo-skin .btn-primary:not([disabled]):not(.disabled).active, .show > .indigo-skin .btn-primary.dropdown-toggle {
   background-color: #fa0341 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .indigo-skin .btn-primary:not([disabled]):not(.disabled):active:focus, .indigo-skin .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .indigo-skin .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .indigo-skin .primary-ic {
   color: #fd668c !important;
@@ -20108,8 +20108,8 @@ button.md-toast-close-button {
   background-color: #456cbf;
 }
 .indigo-skin .btn-secondary:focus, .indigo-skin .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .indigo-skin .btn-secondary:focus, .indigo-skin .btn-secondary:active, .indigo-skin .btn-secondary.active {
   background-color: #223762;
@@ -20122,12 +20122,12 @@ button.md-toast-close-button {
 }
 .indigo-skin .btn-secondary:not([disabled]):not(.disabled):active, .indigo-skin .btn-secondary:not([disabled]):not(.disabled).active, .show > .indigo-skin .btn-secondary.dropdown-toggle {
   background-color: #223762 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .indigo-skin .btn-secondary:not([disabled]):not(.disabled):active:focus, .indigo-skin .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .indigo-skin .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .indigo-skin .secondary-ic {
   color: #3c61ae !important;
@@ -20152,8 +20152,8 @@ button.md-toast-close-button {
   background-color: #9ea3b5;
 }
 .indigo-skin .btn-default:focus, .indigo-skin .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .indigo-skin .btn-default:focus, .indigo-skin .btn-default:active, .indigo-skin .btn-default.active {
   background-color: #5c6178;
@@ -20166,12 +20166,12 @@ button.md-toast-close-button {
 }
 .indigo-skin .btn-default:not([disabled]):not(.disabled):active, .indigo-skin .btn-default:not([disabled]):not(.disabled).active, .show > .indigo-skin .btn-default.dropdown-toggle {
   background-color: #5c6178 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .indigo-skin .btn-default:not([disabled]):not(.disabled):active:focus, .indigo-skin .btn-default:not([disabled]):not(.disabled).active:focus, .show > .indigo-skin .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .indigo-skin .default-ic {
   color: #9095aa !important;
@@ -20493,8 +20493,8 @@ button.md-toast-close-button {
   background-color: #ff647c;
 }
 .light-blue-skin .btn-primary:focus, .light-blue-skin .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .light-blue-skin .btn-primary:focus, .light-blue-skin .btn-primary:active, .light-blue-skin .btn-primary.active {
   background-color: #e30024;
@@ -20507,12 +20507,12 @@ button.md-toast-close-button {
 }
 .light-blue-skin .btn-primary:not([disabled]):not(.disabled):active, .light-blue-skin .btn-primary:not([disabled]):not(.disabled).active, .show > .light-blue-skin .btn-primary.dropdown-toggle {
   background-color: #e30024 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .light-blue-skin .btn-primary:not([disabled]):not(.disabled):active:focus, .light-blue-skin .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .light-blue-skin .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .light-blue-skin .primary-ic {
   color: #ff4a67 !important;
@@ -20537,8 +20537,8 @@ button.md-toast-close-button {
   background-color: #7bccf2;
 }
 .light-blue-skin .btn-secondary:focus, .light-blue-skin .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .light-blue-skin .btn-secondary:focus, .light-blue-skin .btn-secondary:active, .light-blue-skin .btn-secondary.active {
   background-color: #159ad9;
@@ -20551,12 +20551,12 @@ button.md-toast-close-button {
 }
 .light-blue-skin .btn-secondary:not([disabled]):not(.disabled):active, .light-blue-skin .btn-secondary:not([disabled]):not(.disabled).active, .show > .light-blue-skin .btn-secondary.dropdown-toggle {
   background-color: #159ad9 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .light-blue-skin .btn-secondary:not([disabled]):not(.disabled):active:focus, .light-blue-skin .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .light-blue-skin .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .light-blue-skin .secondary-ic {
   color: #64c3f0 !important;
@@ -20581,8 +20581,8 @@ button.md-toast-close-button {
   background-color: #35547c;
 }
 .light-blue-skin .btn-default:focus, .light-blue-skin .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .light-blue-skin .btn-default:focus, .light-blue-skin .btn-default:active, .light-blue-skin .btn-default.active {
   background-color: #0f1722;
@@ -20595,12 +20595,12 @@ button.md-toast-close-button {
 }
 .light-blue-skin .btn-default:not([disabled]):not(.disabled):active, .light-blue-skin .btn-default:not([disabled]):not(.disabled).active, .show > .light-blue-skin .btn-default.dropdown-toggle {
   background-color: #0f1722 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .light-blue-skin .btn-default:not([disabled]):not(.disabled):active:focus, .light-blue-skin .btn-default:not([disabled]):not(.disabled).active:focus, .show > .light-blue-skin .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .light-blue-skin .default-ic {
   color: #2d486a !important;
@@ -20922,8 +20922,8 @@ button.md-toast-close-button {
   background-color: #5db7ef;
 }
 .grey-skin .btn-primary:focus, .grey-skin .btn-primary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .grey-skin .btn-primary:focus, .grey-skin .btn-primary:active, .grey-skin .btn-primary.active {
   background-color: #127abb;
@@ -20936,12 +20936,12 @@ button.md-toast-close-button {
 }
 .grey-skin .btn-primary:not([disabled]):not(.disabled):active, .grey-skin .btn-primary:not([disabled]):not(.disabled).active, .show > .grey-skin .btn-primary.dropdown-toggle {
   background-color: #127abb !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .grey-skin .btn-primary:not([disabled]):not(.disabled):active:focus, .grey-skin .btn-primary:not([disabled]):not(.disabled).active:focus, .show > .grey-skin .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .grey-skin .primary-ic {
   color: #46aded !important;
@@ -20966,8 +20966,8 @@ button.md-toast-close-button {
   background-color: #8a9194;
 }
 .grey-skin .btn-secondary:focus, .grey-skin .btn-secondary.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .grey-skin .btn-secondary:focus, .grey-skin .btn-secondary:active, .grey-skin .btn-secondary.active {
   background-color: #4c5053;
@@ -20980,12 +20980,12 @@ button.md-toast-close-button {
 }
 .grey-skin .btn-secondary:not([disabled]):not(.disabled):active, .grey-skin .btn-secondary:not([disabled]):not(.disabled).active, .show > .grey-skin .btn-secondary.dropdown-toggle {
   background-color: #4c5053 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .grey-skin .btn-secondary:not([disabled]):not(.disabled):active:focus, .grey-skin .btn-secondary:not([disabled]):not(.disabled).active:focus, .show > .grey-skin .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .grey-skin .secondary-ic {
   color: #7d8488 !important;
@@ -21010,8 +21010,8 @@ button.md-toast-close-button {
   background-color: #424344;
 }
 .grey-skin .btn-default:focus, .grey-skin .btn-default.focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .grey-skin .btn-default:focus, .grey-skin .btn-default:active, .grey-skin .btn-default.active {
   background-color: #030303;
@@ -21024,12 +21024,12 @@ button.md-toast-close-button {
 }
 .grey-skin .btn-default:not([disabled]):not(.disabled):active, .grey-skin .btn-default:not([disabled]):not(.disabled).active, .show > .grey-skin .btn-default.dropdown-toggle {
   background-color: #030303 !important;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .grey-skin .btn-default:not([disabled]):not(.disabled):active:focus, .grey-skin .btn-default:not([disabled]):not(.disabled).active:focus, .show > .grey-skin .btn-default.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .grey-skin .default-ic {
   color: #353637 !important;
@@ -23359,10 +23359,18 @@ img.rounded-circle {
     height: 332px !important;
   }
 
-  .active:after {
+  .nav .active:after {
     content: "";
     width: 100%;
     border: 1px solid #52c3f8;
+    position: absolute;
+    margin-top: 13px;
+  }
+
+  .btn .active:after {
+    content: "";
+    width: 100%;
+    border: transparent !important;
     position: absolute;
     margin-top: 13px;
   }

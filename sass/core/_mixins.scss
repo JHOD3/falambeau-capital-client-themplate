@@ -307,7 +307,7 @@
 
     &:focus,
     &.focus {
-      box-shadow: $z-depth-1-half;
+      box-shadow: none;
     }
 
     &:focus,
@@ -329,13 +329,13 @@
     &:not([disabled]):not(.disabled).active,
     .show > &.dropdown-toggle {
       background-color: darken($color, 20%) !important;
-      box-shadow: $z-depth-1-half;
+      box-shadow: none;
     }
 
     &:not([disabled]):not(.disabled):active:focus,
     &:not([disabled]):not(.disabled).active:focus,
     .show > &.dropdown-toggle:focus {
-      box-shadow: $z-depth-1-half;
+      box-shadow: none;
     }
   }
 

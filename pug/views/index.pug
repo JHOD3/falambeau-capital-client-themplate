@@ -71,7 +71,11 @@ block content
                                             i.fas.fa-usd-circle.mr-3
                                             |Funding target <span class="font-weight-bold">U$S 500.000</span>
                                 div
-                                    button.btn.btn-primary.btn-rounded.btn-sm.font-14 Me interesa
+                                    //button.btn.btn-primary.btn-rounded.btn-sm.font-14 Me interesa
+                                    .btn-group(data-toggle='buttons')
+                                        label.btn.btn-primary.btn-sm.btn-rounded
+                                            input#option1(type='radio' name='options' autocomplete='off' checked='')
+                                            |  Me interesa
             section.mt-md-5.pt-md-5.mb-5.pt-3.border-radius-card.border-0.d-block.d-md-none
                 // Section: Analytical panel
                 div.mt-5.pt-5.mb-5
