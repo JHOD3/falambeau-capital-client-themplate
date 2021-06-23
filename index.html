@@ -58,7 +58,8 @@
               <li class="nav-item"><a class="nav-link text-dark" href="contacto.html"><span class="clearfix d-none d-sm-inline-block">Contacto</span></a></li>
               <li class="nav-item mx-4 raya-vertical"></li>
               <li class="d-flex">
-                <div class="text-dark text-right" style="display:grid"><span class="brand-text text-dark">Esteban Gorostarzu</span><a class="text-dark closed-session-link" href=""><small>Cerrar sesion</small></a></div>
+                <div class="text-dark text-right" style="display:grid"><span class="brand-text text-dark">Esteban Gorostarzu</span><a class="closed-session-link text-primary" href=""><small>
+                      <u>Cerrar sesion</u></small></a></div>
                 <div class="ml-3"><img class="brand-image img-circle elevation-3 avatar px-0" src="https://ui-avatars.com/api/?name=EG&amp;rounded=true&amp;background=50C2F7&amp;color=ffffff" alt="Flambeau Logo" style="opacity: .8"/></div>
                 <hr/>
               </li>
@@ -81,15 +82,15 @@
             <div class="mt-md-4 pt-md-5 mb-5">
               <h2>Ontech Group</h2>
               <!-- Card-->
-              <div class="card card-cascade narrower">
+              <div class="card card-cascade narrower border-radius-top border-0">
                 <div class="container-portada grey lighten-1"></div>
                 <div class="bg-white footer-portada">
                   <div class="row col-md-12 justify-content-between">
                     <div class="photo-perfil bg-white view view-cascade gradient-card-header p-0"><img class="photo-perfil" src="img/ontech-test.png"/></div>
                     <div class="menu-footer-portada d-flex align-items-center link-footer-perfil">
-                      <div><a class="font-14"><i class="fas fa-tag mr-3"></i>Tecnology</a></div>
-                      <div class="mx-5"><a class="font-14"><i class="fas fa-map-marker-alt mr-3"></i>Argentina</a></div>
-                      <div><a class="font-14"><i class="fas fa-usd-circle mr-3"></i>Funding target <span class="font-weight-bold">U$S 500.000</span></a></div>
+                      <div><span class="font-14"><i class="fas fa-tag mr-3"></i>Tecnology</span></div>
+                      <div class="mx-5"><span class="font-14"><i class="fas fa-map-marker-alt mr-3"></i>Argentina</span></div>
+                      <div><span class="font-14"><i class="fas fa-usd-circle mr-3"></i>Funding target <span class="font-weight-bold">U$S 500.000</span></span></div>
                     </div>
                     <div>
                       <button class="btn btn-primary btn-rounded btn-sm font-14">Me interesa</button>
@@ -143,7 +144,7 @@
                       </tr>
                       <tr>
                         <td class="font-14">Website</td>
-                        <td class="font-14 pl-3 font-weight-bold">www.hddingr.com</td>
+                        <td class="font-14 pl-3 font-weight-bold"><a class="text-primary" href="www.hddingr.com">www.hddingr.com</a></td>
                       </tr>
                     </table>
                   </div>
@@ -185,7 +186,7 @@
                   </tr>
                   <tr>
                     <td class="font-13 text-secondary">Website</td>
-                    <td class="font-13 pl-3 font-weight-bold">www.hddingr.com</td>
+                    <td class="font-13 pl-3 font-weight-bold"><a class="text-primary" href="www.hddingr.com">www.hddingr.com</a></td>
                   </tr>
                 </table>
               </div>
@@ -231,7 +232,7 @@
           <section class="card bg-white mb-5 pb-5 border-radius-card border-0">
             <div class="px-5 pt-5">
               <div class="d-flex pb-1">
-                <h5 class="text-primary font-weight-500">Galeria</h5>
+                <h5 class="text-primary font-weight-500">Galería</h5>
               </div>
             </div>
             <div class="mt-3">
@@ -250,12 +251,9 @@
             </div>
             <div class="row mt-3 px-md-5">
               <div class="col-md-9 col-12">
-                <iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/fHspVzRTaZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                <iframe class="video-w" id="iframe-video-change" style="width:100%;height:100%;" src="https://www.youtube.com/embed/fHspVzRTaZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
               </div>
-              <div class="col-md-3 d-md-block d-none">
-                <iframe style="width:100%;" src="https://www.youtube.com/embed/fHspVzRTaZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
-                <iframe style="width:100%;" src="https://www.youtube.com/embed/fHspVzRTaZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
-              </div>
+              <div class="col-md-3 d-md-block d-none"><a class="change-video" data-id-video="9FNG4wMdapM"><img src="https://img.youtube.com/vi/9FNG4wMdapM/mqdefault.jpg" style="width:100%;"/></a><a class="change-video" data-id-video="fHspVzRTaZQ"><img class="mt-3" src="https://img.youtube.com/vi/fHspVzRTaZQ/mqdefault.jpg" style="width:100%;"/></a></div>
             </div>
           </section>
           <section class="card bg-white mb-5 p-5 border-radius-card border-0 d-none d-md-block" style="height: 415px;">
@@ -444,22 +442,6 @@
               </div>
             </div>
           </section>
-          <section class="card bg-white mb-5 p-md-5 py-5 border-radius-card border-0 d-block d-md-none">
-            <div class="d-flex pb-1 px-3">
-              <h5 class="text-primary font-weight-500">Presentación</h5><a class="ml-auto"><i class="fas fa-cloud-download-alt"></i></a>
-            </div>
-            <div class="mt-3">
-              <div class="px-md-4"><img src="img/img-presentacion.png" style="width:100%;"/></div>
-            </div>
-          </section>
-          <section class="card bg-white mb-5 p-md-5 py-5 border-radius-card border-0 d-none d-md-block">
-            <div class="d-flex border-bottom pb-1">
-              <h5 class="text-primary font-weight-500">Presentación</h5><a class="ml-auto"><i class="fas fa-cloud-download-alt"></i></a>
-            </div>
-            <div class="mt-3">
-              <div class="px-md-4"><img src="img/img-presentacion.png" style="width:100%;"/></div>
-            </div>
-          </section>
           <section class="card bg-white mb-5 p-md-5 py-5 px-3 px-md-0 border-radius-card border-0">
             <div class="d-flex border-bottom pb-1">
               <h5 class="text-primary font-weight-500">Más info</h5>
@@ -583,14 +565,50 @@
               </div>
             </div>
           </section>
+          <section class="card bg-white mb-5 p-md-5 py-5 border-radius-card border-0 d-block d-md-none">
+            <div class="d-flex pb-1 px-3">
+              <h5 class="text-primary font-weight-500">Presentación</h5>
+              <!--a.ml-autoi.fas.fa-cloud-download-alt
+              -->
+            </div>
+            <div class="mt-3">
+              <div class="px-md-4">
+                <div class="owl-carousel-1 owl-carousel">
+                  <div><img src="img/img-presentacion.png" style="width:100%;"/></div>
+                  <div><img src="img/img-presentacion.png" style="width:100%;"/></div>
+                  <div><img src="img/img-presentacion.png" style="width:100%;"/></div>
+                  <div><img src="img/img-presentacion.png" style="width:100%;"/></div>
+                </div>
+                <div class="d-flex mt-4 justify-content-center"><a class="prev"><i class="fal fa-chevron-left font-24"></i></a><span class="mx-5 nav-carousel">   0 de 0</span><a class="next"><i class="fal fa-chevron-right font-24"></i></a></div>
+              </div>
+            </div>
+          </section>
+          <section class="card bg-white mb-5 p-md-5 py-5 border-radius-card border-0 d-none d-md-block">
+            <div class="d-flex border-bottom pb-1">
+              <h5 class="text-primary font-weight-500">Presentación</h5>
+              <!--a.ml-autoi.fas.fa-cloud-download-alt
+              -->
+            </div>
+            <div class="mt-3">
+              <div class="px-md-4">
+                <div class="owl-carousel-5 owl-carousel">
+                  <div><img src="img/img-presentacion-1.png" style="width:100%;"/></div>
+                  <div><img src="img/img-presentacion-2.png" style="width:100%;"/></div>
+                  <div><img src="img/img-presentacion-3.png" style="width:100%;"/></div>
+                  <div><img src="img/img-presentacion-4.png" style="width:100%;"/></div>
+                </div>
+                <div class="d-flex mt-4 justify-content-center"><a class="prev"><i class="fal fa-chevron-left font-24"></i></a><span class="mx-5 nav-carousel2">   0 de 0</span><a class="next"><i class="fal fa-chevron-right font-24"></i></a></div>
+              </div>
+            </div>
+          </section>
           <section class="mb-5 border-radius-card border-0 d-none d-md-block">
             <div class="d-flex pb-1">
-              <h6 class="font-weight-500">Otras oportunidades</h6>
+              <h6 class="font-weight-500">Oportunidades Seleccionadas</h6>
             </div>
             <div class="row mt-3 px-md-3">
               <div class="owl-carousel-3 owl-carousel">
                 <div class="card border-radius-card border-0">
-                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
+                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a href="index.html">
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
                     <!--
@@ -609,11 +627,11 @@
                       Quisque sollicitudin
                     </p>
                     <hr/>
-                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3">   VER OPORTUNIDAD</a>
+                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3" href="index.html">   VER OPORTUNIDAD</a>
                   </div>
                 </div>
                 <div class="card border-radius-card border-0">
-                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-2.png" alt="fern"/><a>
+                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-2.png" alt="fern"/><a href="index.html">
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
                     <!--
@@ -632,11 +650,11 @@
                       Quisque sollicitudin
                     </p>
                     <hr/>
-                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3">   VER OPORTUNIDAD</a>
+                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3" href="index.html">   VER OPORTUNIDAD</a>
                   </div>
                 </div>
                 <div class="card border-radius-card border-0">
-                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-3.png" alt="fern"/><a>
+                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-3.png" alt="fern"/><a href="index.html">
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
                     <!--
@@ -655,7 +673,7 @@
                       Quisque sollicitudin
                     </p>
                     <hr/>
-                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3">   VER OPORTUNIDAD</a>
+                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3" href="index.html">   VER OPORTUNIDAD</a>
                   </div>
                 </div>
               </div>
@@ -663,12 +681,12 @@
           </section>
           <section class="mb-5 border-radius-card border-0 d-block d-md-none">
             <div class="d-flex pb-1">
-              <h6 class="font-weight-500">Otras oportunidades</h6>
+              <h6 class="font-weight-500">Oportunidades Seleccionadas</h6>
             </div>
             <div class="row mt-3 px-md-3">
               <div class="owl-carousel-4 owl-carousel">
                 <div class="card border-radius-card border-0">
-                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a>
+                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-1.png" alt="fern"/><a href="index.html">
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
                     <!--
@@ -687,11 +705,11 @@
                       Quisque sollicitudin
                     </p>
                     <hr/>
-                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3">   VER OPORTUNIDAD</a>
+                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3" href="index.html">   VER OPORTUNIDAD</a>
                   </div>
                 </div>
                 <div class="card border-radius-card border-0">
-                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-2.png" alt="fern"/><a>
+                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-2.png" alt="fern"/><a href="index.html">
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
                     <!--
@@ -710,11 +728,11 @@
                       Quisque sollicitudin
                     </p>
                     <hr/>
-                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3">   VER OPORTUNIDAD</a>
+                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3" href="index.html">   VER OPORTUNIDAD</a>
                   </div>
                 </div>
                 <div class="card border-radius-card border-0">
-                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-3.png" alt="fern"/><a>
+                  <div class="view overlay"><img class="card-img-top border-radius-top" src="img/imagen-3.png" alt="fern"/><a href="index.html">
                       <div class="mask rgba-white-slight"></div></a></div>
                   <div class="card-body">
                     <!--
@@ -733,7 +751,7 @@
                       Quisque sollicitudin
                     </p>
                     <hr/>
-                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3">   VER OPORTUNIDAD</a>
+                    <h6 class="text-center text-primary">Funding target <span class="font-weight-bold">U$S 500.000.-</span></h6><a class="btn btn-primary btn-rounded btn-sm mx-auto d-block mt-3" href="index.html">   VER OPORTUNIDAD</a>
                   </div>
                 </div>
               </div>

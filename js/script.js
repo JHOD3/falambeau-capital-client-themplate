@@ -2,11 +2,18 @@ var owl = $('.owl-carousel-1');
 var owl2 = $('.owl-carousel-2');
 var owl3 = $('.owl-carousel-3');
 var owl4 = $('.owl-carousel-4');
+var owl5 = $('.owl-carousel-5');
+
 owl.on('initialized.owl.carousel', function(event){
-    console.log(event.item.count,event);
-    let suma = event.item.index - 2;
-    suma = (suma==0)?event.item.count:suma;
-    $('.nav-carousel').html(suma+' de '+event.item.count);
+    console.log(event)
+    let suma = event.item.index + 1;
+    suma = (suma==0 || event.item.index == event.item.count )?suma:suma;
+    $('.nav-carousel').html(suma +' de '+event.item.count);
+});
+owl5.on('initialized.owl.carousel', function(event){
+    let suma1 = event.item.index - 1;
+    suma1 = (suma1==0 || event.item.index == event.item.count )?suma1:suma1;
+    $('.nav-carousel2').html(suma1 +' de '+event.item.count);
 });
 owl.owlCarousel({
     loop:true,
@@ -61,21 +68,47 @@ owl4.owlCarousel({
     loop:true,
     margin:20,
 });
-
+owl5.owlCarousel({
+    loop:true,
+    center: true,
+    dots: false,
+    margin:10,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:1
+        }
+    }
+});
+// Para el nav de carrusel 1
 $(".next").click(function(){
     owl.find(".owl-next").click();
 });
 $(".prev").click(function() {
     owl.find(".owl-prev").click();
 });
-owl.ready('initialized.owl.carousel', function (event) {
-    console.log(event);
-});
 owl.on('changed.owl.carousel', function(event) {
-    let suma = event.property.value - 2;
+    let suma = event.item.index + 1;
     suma = (suma==0)?event.item.count:suma;
     $('.nav-carousel').html(suma+' de '+event.item.count);
 });
+
+
+$(".next").click(function(){
+    owl5.find(".owl-next").click();
+});
+$(".prev").click(function() {
+    owl5.find(".owl-prev").click();
+});
+owl5.on('changed.owl.carousel', function(event) {
+    let suma1 = event.item.index - 1;
+    suma1 = (suma1==0)?event.item.count:suma1;
+    $('.nav-carousel2').html(suma1+' de '+event.item.count);
+});
+
+
 var clicks = 0;
 $('.deploy').on('click', function (event) {
     let id = $(this).data('id');
@@ -94,4 +127,11 @@ $('.card-photo-carousel').on('mouseleave',function (event) {
     $(this).find('i').removeClass('rotate-plus');
     $(id).css('display','none');
     clicks = 0;
+})
+
+$('.change-video').on('click', function (event) {
+    let id_video = $(this).data('id-video');
+    let iframe = $('#iframe-video-change');
+
+    iframe.attr('src','https://www.youtube.com/embed/'+id_video);
 })

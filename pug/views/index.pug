@@ -28,8 +28,9 @@ block menu
                     li.d-flex
                         div.text-dark(style="display:grid").text-right
                             span.brand-text.text-dark Esteban Gorostarzu
-                            a(href="").text-dark.closed-session-link
-                                small Cerrar sesion
+                            a(href="").closed-session-link.text-primary
+                                small
+                                    u Cerrar sesion
                         div.ml-3
                             img.brand-image.img-circle.elevation-3.avatar.px-0(src="https://ui-avatars.com/api/?name=EG&rounded=true&background=50C2F7&color=ffffff" alt='Flambeau Logo' style='opacity: .8')
                         hr
@@ -50,7 +51,7 @@ block content
                 div.mt-md-4.pt-md-5.mb-5
                     h2 Ontech Group
                     // Card
-                    .card.card-cascade.narrower
+                    .card.card-cascade.narrower.border-radius-top.border-0
                         div.container-portada.grey.lighten-1
                         div.bg-white.footer-portada
                             .row.col-md-12.justify-content-between
@@ -58,15 +59,15 @@ block content
                                     img(src="img/ontech-test.png").photo-perfil
                                 .menu-footer-portada.d-flex.align-items-center.link-footer-perfil
                                     div
-                                        a.font-14
+                                        span.font-14
                                             i.fas.fa-tag.mr-3
                                             |Tecnology
                                     div.mx-5
-                                        a.font-14
+                                        span.font-14
                                             i.fas.fa-map-marker-alt.mr-3
                                             |Argentina
                                     div
-                                        a.font-14
+                                        span.font-14
                                             i.fas.fa-usd-circle.mr-3
                                             |Funding target <span class="font-weight-bold">U$S 500.000</span>
                                 div
@@ -113,7 +114,9 @@ block content
                                         td.font-14.pl-3.font-weight-bold Aston Partners, Reinke Irrigation, FarmAgro, GERMiNB ventures, GreeSoil Inverstments, Finistere Ventures
                                     tr
                                         td.font-14 Website
-                                        td.font-14.pl-3.font-weight-bold www.hddingr.com
+                                        td.font-14.pl-3.font-weight-bold
+                                            a(href="www.hddingr.com").text-primary www.hddingr.com
+
             section.card.bg-white.mb-5.p-5.border-radius-card.border-0.d-md-block.d-none
                 div.row
                     div.col-md-7
@@ -142,7 +145,8 @@ block content
                                 td.font-13.pl-3.font-weight-bold Aston Partners, Reinke Irrigation, FarmAgro, GERMiNB ventures, GreeSoil Inverstments, Finistere Ventures
                             tr
                                 td.font-13.text-secondary Website
-                                td.font-13.pl-3.font-weight-bold www.hddingr.com
+                                td.font-13.pl-3.font-weight-bold
+                                    a(href="www.hddingr.com").text-primary www.hddingr.com
             section.card.bg-white.mb-5.p-5.border-radius-card.border-0
                 h5.text-primary.font-weight-500 Key Highlights
                 div.row.mt-3
@@ -177,7 +181,7 @@ block content
             section.card.bg-white.mb-5.pb-5.border-radius-card.border-0
                 .px-5.pt-5
                     .d-flex.pb-1
-                        h5.text-primary.font-weight-500 Galeria
+                        h5.text-primary.font-weight-500 Galería
                 div.mt-3
                     div.owl-carousel-1.owl-carousel
                         div
@@ -199,10 +203,12 @@ block content
                     h5.text-primary.font-weight-500 Video
                 div.row.mt-3.px-md-5
                     .col-md-9.col-12
-                        iframe(style="width:100%;height:100%;" src="https://www.youtube.com/embed/fHspVzRTaZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                        iframe.video-w#iframe-video-change(style="width:100%;height:100%;" src="https://www.youtube.com/embed/fHspVzRTaZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
                     .col-md-3.d-md-block.d-none
-                        iframe(style="width:100%;" src="https://www.youtube.com/embed/fHspVzRTaZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-                        iframe(style="width:100%;" src="https://www.youtube.com/embed/fHspVzRTaZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                        a.change-video(data-id-video="9FNG4wMdapM")
+                            img(src="https://img.youtube.com/vi/9FNG4wMdapM/mqdefault.jpg", style="width:100%;")
+                        a.change-video(data-id-video="fHspVzRTaZQ")
+                            img.mt-3(src="https://img.youtube.com/vi/fHspVzRTaZQ/mqdefault.jpg", style="width:100%;")
             section.card.bg-white.mb-5.p-5.border-radius-card.border-0.d-none.d-md-block(style="height: 415px;")
                 .d-flex.border-bottom.pb-1
                     h5.text-primary.font-weight-500 Team
@@ -384,22 +390,6 @@ block content
                                 |   pulvinar leo ac enim interdum consequat. Vivamus bibendum tristique
                                 |   turpis, eget elementum nibh ultricies ut. Etiam justo diam, blandit
                                 |   condimentum maximus ac(data-.d="#text-2")
-            section.card.bg-white.mb-5.p-md-5.py-5.border-radius-card.border-0.d-block.d-md-none
-                div.d-flex.pb-1.px-3
-                    h5.text-primary.font-weight-500 Presentación
-                    a.ml-auto
-                        i.fas.fa-cloud-download-alt
-                div.mt-3
-                    div.px-md-4
-                        img(src="img/img-presentacion.png" style="width:100%;")
-            section.card.bg-white.mb-5.p-md-5.py-5.border-radius-card.border-0.d-none.d-md-block
-                div.d-flex.border-bottom.pb-1
-                    h5.text-primary.font-weight-500 Presentación
-                    a.ml-auto
-                        i.fas.fa-cloud-download-alt
-                div.mt-3
-                    div.px-md-4
-                        img(src="img/img-presentacion.png" style="width:100%;")
             section.card.bg-white.mb-5.p-md-5.py-5.px-3.px-md-0.border-radius-card.border-0
                 div.d-flex.border-bottom.pb-1
                     h5.text-primary.font-weight-500 Más info
@@ -519,15 +509,59 @@ block content
                                     | sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
                                     | farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
                                     | accusamus labore sustainable VHS.
+            section.card.bg-white.mb-5.p-md-5.py-5.border-radius-card.border-0.d-block.d-md-none
+                div.d-flex.pb-1.px-3
+                    h5.text-primary.font-weight-500 Presentación
+                    //a.ml-auto
+                        i.fas.fa-cloud-download-alt
+                div.mt-3
+                    div.px-md-4
+                        div.owl-carousel-1.owl-carousel
+                            div
+                                img(src="img/img-presentacion.png" style="width:100%;")
+                            div
+                                img(src="img/img-presentacion.png" style="width:100%;")
+                            div
+                                img(src="img/img-presentacion.png" style="width:100%;")
+                            div
+                                img(src="img/img-presentacion.png" style="width:100%;")
+                        div.d-flex.mt-4.justify-content-center
+                            a.prev
+                                i.fal.fa-chevron-left.font-24
+                            span.mx-5.nav-carousel    0 de 0
+                            a.next
+                                i.fal.fa-chevron-right.font-24
+            section.card.bg-white.mb-5.p-md-5.py-5.border-radius-card.border-0.d-none.d-md-block
+                div.d-flex.border-bottom.pb-1
+                    h5.text-primary.font-weight-500 Presentación
+                    //a.ml-auto
+                        i.fas.fa-cloud-download-alt
+                div.mt-3
+                    div.px-md-4
+                        div.owl-carousel-5.owl-carousel
+                            div
+                                img(src="img/img-presentacion-1.png" style="width:100%;")
+                            div
+                                img(src="img/img-presentacion-2.png" style="width:100%;")
+                            div
+                                img(src="img/img-presentacion-3.png" style="width:100%;")
+                            div
+                                img(src="img/img-presentacion-4.png" style="width:100%;")
+                        div.d-flex.mt-4.justify-content-center
+                            a.prev
+                                i.fal.fa-chevron-left.font-24
+                            span.mx-5.nav-carousel2    0 de 0
+                            a.next
+                                i.fal.fa-chevron-right.font-24
             section.mb-5.border-radius-card.border-0.d-none.d-md-block
                 div.d-flex.pb-1
-                    h6.font-weight-500 Otras oportunidades
+                    h6.font-weight-500 Oportunidades Seleccionadas
                 div.row.mt-3.px-md-3
                     div.owl-carousel-3.owl-carousel
                         .card.border-radius-card.border-0
                             .view.overlay
                                 img.card-img-top.border-radius-top(src='img/imagen-1.png' alt='fern')
-                                a
+                                a(href="index.html")
                                     .mask.rgba-white-slight
                             .card-body
                                 //
@@ -550,12 +584,12 @@ block content
                                     | Quisque sollicitudin
                                 hr
                                 h6.text-center.text-primary Funding target <span class="font-weight-bold">U$S 500.000.-</span>
-                                a.btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
+                                a(href="index.html").btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
                                     |    VER OPORTUNIDAD
                         .card.border-radius-card.border-0
                             .view.overlay
                                 img.card-img-top.border-radius-top(src='img/imagen-2.png' alt='fern')
-                                a
+                                a(href="index.html")
                                     .mask.rgba-white-slight
                             .card-body
                                 //
@@ -578,12 +612,12 @@ block content
                                     | Quisque sollicitudin
                                 hr
                                 h6.text-center.text-primary Funding target <span class="font-weight-bold">U$S 500.000.-</span>
-                                a.btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
+                                a(href="index.html").btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
                                     |    VER OPORTUNIDAD
                         .card.border-radius-card.border-0
                             .view.overlay
                                 img.card-img-top.border-radius-top(src='img/imagen-3.png' alt='fern')
-                                a
+                                a(href="index.html")
                                     .mask.rgba-white-slight
                             .card-body
                                 //
@@ -606,17 +640,17 @@ block content
                                     | Quisque sollicitudin
                                 hr
                                 h6.text-center.text-primary Funding target <span class="font-weight-bold">U$S 500.000.-</span>
-                                a.btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
+                                a(href="index.html").btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
                                     |    VER OPORTUNIDAD
             section.mb-5.border-radius-card.border-0.d-block.d-md-none
                 div.d-flex.pb-1
-                    h6.font-weight-500 Otras oportunidades
+                    h6.font-weight-500 Oportunidades Seleccionadas
                 div.row.mt-3.px-md-3
                     div.owl-carousel-4.owl-carousel
                         .card.border-radius-card.border-0
                             .view.overlay
                                 img.card-img-top.border-radius-top(src='img/imagen-1.png' alt='fern')
-                                a
+                                a(href="index.html")
                                     .mask.rgba-white-slight
                             .card-body
                                 //
@@ -639,12 +673,12 @@ block content
                                     | Quisque sollicitudin
                                 hr
                                 h6.text-center.text-primary Funding target <span class="font-weight-bold">U$S 500.000.-</span>
-                                a.btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
+                                a(href="index.html").btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
                                     |    VER OPORTUNIDAD
                         .card.border-radius-card.border-0
                             .view.overlay
                                 img.card-img-top.border-radius-top(src='img/imagen-2.png' alt='fern')
-                                a
+                                a(href="index.html")
                                     .mask.rgba-white-slight
                             .card-body
                                 //
@@ -667,12 +701,12 @@ block content
                                     | Quisque sollicitudin
                                 hr
                                 h6.text-center.text-primary Funding target <span class="font-weight-bold">U$S 500.000.-</span>
-                                a.btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
+                                a(href="index.html").btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
                                     |    VER OPORTUNIDAD
                         .card.border-radius-card.border-0
                             .view.overlay
                                 img.card-img-top.border-radius-top(src='img/imagen-3.png' alt='fern')
-                                a
+                                a(href="index.html")
                                     .mask.rgba-white-slight
                             .card-body
                                 //
@@ -695,5 +729,5 @@ block content
                                     | Quisque sollicitudin
                                 hr
                                 h6.text-center.text-primary Funding target <span class="font-weight-bold">U$S 500.000.-</span>
-                                a.btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
+                                a(href="index.html").btn.btn-primary.btn-rounded.btn-sm.mx-auto.d-block.mt-3
                                     |    VER OPORTUNIDAD

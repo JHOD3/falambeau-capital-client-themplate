@@ -23211,8 +23211,8 @@ img.rounded-circle {
 }
 
 .card-photo-carousel:hover {
-  -webkit-box-shadow: 0px 0px 8px 2px #7b7b7b;
-          box-shadow: 0px 0px 8px 2px #7b7b7b;
+  -webkit-box-shadow: 0px 0px 8px 2px #7b7b7b3b;
+          box-shadow: 0px 0px 8px 2px #7b7b7b3b;
   border-radius: 10px;
   position: absolute;
   width: 270px;
