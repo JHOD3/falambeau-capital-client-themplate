@@ -39,13 +39,13 @@
 }
 .card-photo-carousel{
   padding: 15px;
-  width: 270px;
+  width: 229px;
 }
 .card-photo-carousel:hover{
   box-shadow: 0px 0px 8px 2px #7b7b7b3b;
   border-radius: 10px;
   position: absolute;
-  width: 270px;
+  width: 229px;
   background: white;
 }
 .z-index-1{
@@ -188,6 +188,12 @@
   }
   .card-hover-oportunidades:hover {
     transform: scale(1.08);
+  }
+  .img-galeria{
+    transition: transform .2s;
+  }
+  .img-galeria:hover {
+    transform: scale(1.05);
   }
   @keyframes fadeIn {
     0% {transform: scale(1);}

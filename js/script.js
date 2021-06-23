@@ -32,7 +32,7 @@ owl.owlCarousel({
 owl2.owlCarousel({
     loop:true,
     dots: false,
-    margin:20,
+    margin:-40,
     itemClass: 'owl-item z-index-1',
     responsive:{
         0:{
