@@ -23342,6 +23342,14 @@ img.rounded-circle {
 }
 
 @media (min-width: 768px) {
+  .carrusel-2-h {
+    height: 420px;
+  }
+
+  .owl-carousel-2 .owl-dots {
+    margin-top: -131px !important;
+  }
+
   .font-welcom-modal {
     font-size: 70px;
   }
@@ -23430,6 +23438,14 @@ img.rounded-circle {
   }
 }
 @media (max-width: 768px) {
+  .owl-carousel-2 .owl-dots {
+    margin-top: -172px !important;
+  }
+
+  .carrusel-2-h {
+    height: 454px;
+  }
+
   .font-welcom-modal {
     font-size: 55px;
   }

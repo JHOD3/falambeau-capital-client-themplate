@@ -31,15 +31,20 @@ owl.owlCarousel({
 });
 owl2.owlCarousel({
     loop:true,
-    dots: false,
-    margin:-40,
+    nav: false,
+    dots: true,
     itemClass: 'owl-item z-index-1',
+    stageClass:'owl-stage carrusel-2-h',
+    stageOuterClass: 'owl-stage-outer carrusel-2-h',
     responsive:{
         0:{
-            items:1
+            items:1,
+            margin:-90,
+            center:true
         },
         768:{
-            items:4
+            items:4,
+            margin:-40,
         }
     }
 });
